@@ -1,0 +1,322 @@
+{
+  "skills": [
+    {
+      "canonical": "SolidWorks",
+      "aliases": ["SolidWorks", "Solid Works", "SOLIDWORKS"],
+      "category": "cad",
+      "industries": ["EV/Automotive", "Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "CSWP",
+      "aliases": ["CSWP", "Certified SolidWorks Professional", "SolidWorks Professional"],
+      "category": "certifications",
+      "industries": ["EV/Automotive", "Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "AutoCAD",
+      "aliases": ["AutoCAD", "Auto CAD"],
+      "category": "cad",
+      "industries": ["EV/Automotive", "Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Fusion 360",
+      "aliases": ["Fusion 360", "Autodesk Fusion"],
+      "category": "cad",
+      "industries": ["EV/Automotive", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Autodesk Certified Professional",
+      "aliases": ["Autodesk Certified Professional", "Autodesk Certified"],
+      "category": "certifications",
+      "industries": ["EV/Automotive", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "CATIA",
+      "aliases": ["CATIA", "CATIA V5", "CATIA V6"],
+      "category": "cad",
+      "industries": ["Aerospace/Robotics", "EV/Automotive"]
+    },
+    {
+      "canonical": "Creo",
+      "aliases": ["Creo", "Creo Parametric", "Pro/ENGINEER"],
+      "category": "cad",
+      "industries": ["Aerospace/Robotics", "EV/Automotive"]
+    },
+    {
+      "canonical": "Inventor",
+      "aliases": ["Inventor", "Autodesk Inventor"],
+      "category": "cad",
+      "industries": ["Factory Automation", "EV/Automotive"]
+    },
+    {
+      "canonical": "Finite Element Analysis",
+      "aliases": ["FEA", "Finite Element Analysis", "finite element method", "FE analysis"],
+      "category": "analysis",
+      "industries": ["EV/Automotive", "Aerospace/Robotics", "Factory Automation"]
+    },
+    {
+      "canonical": "ANSYS",
+      "aliases": ["ANSYS", "ANSYS Mechanical", "ANSYS Workbench", "ANSYS Fluent"],
+      "category": "analysis",
+      "industries": ["EV/Automotive", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "CFD",
+      "aliases": ["CFD", "computational fluid dynamics", "flow simulation"],
+      "category": "analysis",
+      "industries": ["Aerospace/Robotics", "EV/Automotive"]
+    },
+    {
+      "canonical": "Thermal Analysis",
+      "aliases": ["thermal analysis", "thermal simulation", "heat transfer analysis"],
+      "category": "analysis",
+      "industries": ["EV/Automotive", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Structural Analysis",
+      "aliases": ["structural analysis", "stress analysis", "static analysis"],
+      "category": "analysis",
+      "industries": ["Aerospace/Robotics", "EV/Automotive", "Factory Automation"]
+    },
+    {
+      "canonical": "MATLAB",
+      "aliases": ["MATLAB", "Simulink", "MATLAB/Simulink"],
+      "category": "analysis",
+      "industries": ["EV/Automotive", "Aerospace/Robotics", "Factory Automation"]
+    },
+    {
+      "canonical": "GD&T",
+      "aliases": ["GD&T", "geometric dimensioning and tolerancing", "ASME Y14.5"],
+      "category": "standards",
+      "industries": ["EV/Automotive", "Aerospace/Robotics", "Factory Automation"]
+    },
+    {
+      "canonical": "Lean Six Sigma Green Belt",
+      "aliases": ["Lean Six Sigma Green Belt", "Six Sigma Green Belt", "Six Sigma", "Lean Six Sigma"],
+      "category": "certifications",
+      "industries": ["Factory Automation", "EV/Automotive"]
+    },
+    {
+      "canonical": "FE Exam",
+      "aliases": ["Fundamentals of Engineering", "FE exam", "EIT"],
+      "category": "certifications",
+      "industries": ["EV/Automotive", "Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "CMfgE",
+      "aliases": ["CMfgE", "Certified Manufacturing Engineer"],
+      "category": "certifications",
+      "industries": ["Factory Automation"]
+    },
+    {
+      "canonical": "PLC Programming",
+      "aliases": ["PLC programming", "PLC", "programmable logic controller", "ladder logic", "Allen-Bradley"],
+      "category": "controls",
+      "industries": ["Factory Automation"]
+    },
+    {
+      "canonical": "CNC Machining",
+      "aliases": ["CNC", "CNC machining", "CNC programming", "G-code"],
+      "category": "manufacturing",
+      "industries": ["Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "3D Printing",
+      "aliases": ["3D printing", "additive manufacturing", "rapid prototyping"],
+      "category": "manufacturing",
+      "industries": ["Aerospace/Robotics", "EV/Automotive"]
+    },
+    {
+      "canonical": "Injection Molding",
+      "aliases": ["injection molding", "injection moulding", "mold design"],
+      "category": "manufacturing",
+      "industries": ["EV/Automotive", "Factory Automation"]
+    },
+    {
+      "canonical": "Sheet Metal Design",
+      "aliases": ["sheet metal", "sheet metal design", "stamping"],
+      "category": "manufacturing",
+      "industries": ["EV/Automotive", "Factory Automation"]
+    },
+    {
+      "canonical": "Lean Manufacturing",
+      "aliases": ["lean manufacturing", "lean principles", "kaizen", "5S"],
+      "category": "quality",
+      "industries": ["Factory Automation", "EV/Automotive"]
+    },
+    {
+      "canonical": "DFMEA",
+      "aliases": ["DFMEA", "design failure mode", "design FMEA", "FMEA"],
+      "category": "quality",
+      "industries": ["EV/Automotive", "Aerospace/Robotics", "Factory Automation"]
+    },
+    {
+      "canonical": "Root Cause Analysis",
+      "aliases": ["root cause analysis", "8D", "fishbone diagram", "5 Whys"],
+      "category": "quality",
+      "industries": ["Factory Automation", "EV/Automotive"]
+    },
+    {
+      "canonical": "ISO 9001",
+      "aliases": ["ISO 9001", "quality management system", "QMS"],
+      "category": "standards",
+      "industries": ["Factory Automation", "EV/Automotive", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "AS9100",
+      "aliases": ["AS9100", "aerospace quality"],
+      "category": "standards",
+      "industries": ["Aerospace/Robotics"]
+    },
+    {
+      "canonical": "IATF 16949",
+      "aliases": ["IATF 16949", "automotive quality"],
+      "category": "standards",
+      "industries": ["EV/Automotive"]
+    },
+    {
+      "canonical": "Python",
+      "aliases": ["Python"],
+      "category": "programming",
+      "industries": ["EV/Automotive", "Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "C++",
+      "aliases": ["C++", "C/C++"],
+      "category": "programming",
+      "industries": ["Aerospace/Robotics", "EV/Automotive"]
+    },
+    {
+      "canonical": "SQL",
+      "aliases": ["SQL", "database"],
+      "category": "programming",
+      "industries": ["Factory Automation"]
+    },
+    {
+      "canonical": "Battery Management Systems",
+      "aliases": ["Battery Management Systems", "BMS", "battery management"],
+      "category": "controls",
+      "industries": ["EV/Automotive"]
+    },
+    {
+      "canonical": "CAN Bus",
+      "aliases": ["CAN bus", "CAN protocol", "CAN communication"],
+      "category": "controls",
+      "industries": ["EV/Automotive"]
+    },
+    {
+      "canonical": "Regenerative Braking",
+      "aliases": ["regenerative braking", "regen braking", "energy recovery"],
+      "category": "controls",
+      "industries": ["EV/Automotive"]
+    },
+    {
+      "canonical": "Electric Powertrain",
+      "aliases": ["electric powertrain", "EV powertrain", "electric drivetrain", "e-motor"],
+      "category": "controls",
+      "industries": ["EV/Automotive"]
+    },
+    {
+      "canonical": "Predictive Maintenance",
+      "aliases": ["predictive maintenance", "condition monitoring", "vibration analysis"],
+      "category": "controls",
+      "industries": ["Factory Automation"]
+    },
+    {
+      "canonical": "Industrial Robotics",
+      "aliases": ["industrial robotics", "robotic arm", "robot programming", "FANUC", "ABB robot"],
+      "category": "controls",
+      "industries": ["Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "ROS",
+      "aliases": ["ROS", "Robot Operating System", "ROS2"],
+      "category": "programming",
+      "industries": ["Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Lightweight Optimization",
+      "aliases": ["lightweight optimization", "topology optimization", "weight reduction"],
+      "category": "analysis",
+      "industries": ["Aerospace/Robotics", "EV/Automotive"]
+    },
+    {
+      "canonical": "Composites",
+      "aliases": ["composites", "carbon fiber", "CFRP", "composite materials"],
+      "category": "manufacturing",
+      "industries": ["Aerospace/Robotics"]
+    },
+    {
+      "canonical": "DFM/DFA",
+      "aliases": ["DFM", "DFA", "design for manufacturing", "design for assembly"],
+      "category": "manufacturing",
+      "industries": ["EV/Automotive", "Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Tolerance Stack-Up",
+      "aliases": ["tolerance stack-up", "tolerance analysis", "stack-up analysis"],
+      "category": "standards",
+      "industries": ["EV/Automotive", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Project Management",
+      "aliases": ["project management", "PMP", "Agile", "Scrum"],
+      "category": "soft_skills",
+      "industries": ["EV/Automotive", "Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Technical Writing",
+      "aliases": ["technical writing", "documentation", "technical reports"],
+      "category": "soft_skills",
+      "industries": ["EV/Automotive", "Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "ERP Systems",
+      "aliases": ["ERP", "SAP", "enterprise resource planning"],
+      "category": "programming",
+      "industries": ["Factory Automation", "EV/Automotive"]
+    },
+    {
+      "canonical": "Hydraulics/Pneumatics",
+      "aliases": ["hydraulics", "pneumatics", "fluid power"],
+      "category": "controls",
+      "industries": ["Factory Automation", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Vibration Analysis",
+      "aliases": ["vibration analysis", "modal analysis", "NVH"],
+      "category": "analysis",
+      "industries": ["EV/Automotive", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Fatigue Analysis",
+      "aliases": ["fatigue analysis", "fatigue life", "durability analysis"],
+      "category": "analysis",
+      "industries": ["Aerospace/Robotics", "EV/Automotive"]
+    },
+    {
+      "canonical": "Machine Learning",
+      "aliases": ["machine learning", "ML", "scikit-learn", "data science"],
+      "category": "programming",
+      "industries": ["Factory Automation", "EV/Automotive", "Aerospace/Robotics"]
+    },
+    {
+      "canonical": "Statistical Process Control",
+      "aliases": ["SPC", "statistical process control", "control charts"],
+      "category": "quality",
+      "industries": ["Factory Automation", "EV/Automotive"]
+    },
+    {
+      "canonical": "APQP",
+      "aliases": ["APQP", "advanced product quality planning", "PPAP"],
+      "category": "quality",
+      "industries": ["EV/Automotive"]
+    },
+    {
+      "canonical": "Systems Engineering",
+      "aliases": ["systems engineering", "MBSE", "model-based systems engineering"],
+      "category": "analysis",
+      "industries": ["Aerospace/Robotics", "EV/Automotive"]
+    }
+  ]
+}

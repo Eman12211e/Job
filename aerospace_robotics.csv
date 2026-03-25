@@ -1,0 +1,751 @@
+job_id,title,company,location,description,requirements,industry
+AR-001,"Senior Aerospace Structural Engineer","AeroVista Dynamics","Huntsville, AL","AeroVista Dynamics is seeking a Senior Aerospace Structural Engineer to lead structural analysis and design of launch vehicle components. You will perform FEA using ANSYS Mechanical for static, dynamic, and buckling load cases on primary and secondary structures. CATIA V5 is our primary CAD tool for detailed part and assembly modeling. The role requires deep expertise in GD&T per ASME Y14.5, fatigue analysis, and composite materials. You will generate stress reports per AS9100 documentation requirements and mentor junior stress engineers. Systems engineering knowledge is critical for interface load management across vehicle subsystems.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 8+ years structural analysis experience
+- ANSYS Mechanical expert
+- CATIA V5 for CAD modeling
+- FEA for static, dynamic, and buckling analysis
+- GD&T per ASME Y14.5
+- Fatigue analysis and damage tolerance
+- Composite structures (CFRP, honeycomb)
+- AS9100 documentation standards
+- Systems engineering for interface loads","Aerospace/Robotics"
+AR-002,"UAV Design Engineer","NovaDrone Technologies","San Diego, CA","NovaDrone Technologies designs next-generation autonomous drones for commercial inspection and delivery. We are hiring a UAV Design Engineer to develop airframe structures, mechanism designs, and payload integration solutions. SolidWorks is our primary CAD platform. You will perform structural FEA using ANSYS, CFD for aerodynamic optimization, and lightweight optimization to maximize flight endurance. The role involves GD&T documentation, DFM review for CNC and composite manufacturing, and close collaboration with our flight software team. Experience with ROS2 for hardware-software integration is a strong plus.","- BS in Aerospace or Mechanical Engineering
+- 3-5 years UAV or small aircraft design
+- SolidWorks proficiency required
+- FEA using ANSYS for structural validation
+- CFD for aerodynamic analysis
+- Lightweight optimization (topology/generative design)
+- Composites (carbon fiber layup design)
+- GD&T per ASME Y14.5
+- DFM for CNC and composite manufacturing
+- ROS2 for hardware-software integration preferred","Aerospace/Robotics"
+AR-003,"Propulsion Engineer","Skyward Propulsion","Hawthorne, CA","Skyward Propulsion develops liquid and solid rocket propulsion systems for commercial launch vehicles. We need a Propulsion Engineer to design turbopump components, perform thermal analysis of combustion chambers, and validate designs through FEA and testing. CATIA V6 is used for CAD modeling, and ANSYS Fluent for CFD of internal flow paths. You will work with materials engineers on high-temperature alloy selection and document designs per AS9100. GD&T expertise is required for tight-tolerance rotating components. This is a fast-paced NewSpace environment where you will own designs from concept through hot-fire testing.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 3+ years propulsion or turbomachinery experience
+- CATIA V5/V6 for component modeling
+- ANSYS Fluent for CFD analysis
+- FEA for thermal and structural analysis
+- GD&T for rotating components
+- High-temperature materials knowledge
+- AS9100 documentation
+- Thermal analysis of combustion systems
+- Test planning and data analysis","Aerospace/Robotics"
+AR-004,"Robotics Systems Engineer","Atlas Robotics","Pittsburgh, PA","Atlas Robotics builds collaborative robots for manufacturing and logistics applications. We are seeking a Robotics Systems Engineer to design mechanical systems, integrate sensors, and develop control algorithms. SolidWorks is used for robot arm design, and FEA in ANSYS validates structural integrity under dynamic loading. You will program robot behaviors in ROS2 using Python and C++, implement path planning algorithms, and test in simulation before hardware deployment. The role requires systems engineering thinking to manage mechanical, electrical, and software interfaces. GD&T documentation ensures manufacturing precision.","- BS in Mechanical or Robotics Engineering (MS preferred)
+- 3+ years robotics systems experience
+- SolidWorks for mechanical design
+- FEA in ANSYS for dynamic analysis
+- ROS2 programming (Python and C++)
+- Path planning and motion control
+- Systems engineering for multi-domain integration
+- GD&T per ASME Y14.5
+- Sensor integration (force/torque, vision)
+- Simulation and testing methodology","Aerospace/Robotics"
+AR-005,"Thermal Engineer - Spacecraft","Helios Space Systems","Houston, TX","Helios Space Systems designs thermal control systems for satellites and deep-space probes. We need a Thermal Engineer to develop thermal models, perform thermal analysis using ANSYS and MATLAB, and design passive and active thermal control hardware. You will model orbital thermal environments, predict component temperatures during mission phases, and specify heaters, thermostats, and MLI blankets. CATIA is used for thermal hardware CAD modeling. The role requires AS9100 documentation, GD&T for thermal interface specifications, and systems engineering coordination with other subsystem teams.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 3+ years spacecraft thermal engineering
+- Thermal analysis using ANSYS and/or Thermal Desktop
+- MATLAB for thermal modeling and simulation
+- CATIA for thermal hardware design
+- Passive and active thermal control design
+- Orbital thermal environment modeling
+- GD&T for thermal interfaces
+- AS9100 documentation
+- Systems engineering for subsystem coordination","Aerospace/Robotics"
+AR-006,"Stress Engineer","Apex Aerostructures","Wichita, KS","Apex Aerostructures manufactures wing and fuselage components for commercial aircraft. We are hiring a Stress Engineer to perform structural analysis of metallic and composite aerostructures. You will use ANSYS and Nastran for FEA, calculate margins of safety, and generate stress reports per aerospace standards. CATIA V5 is the primary CAD tool. The role requires expertise in fatigue analysis, damage tolerance, and composite failure criteria (Tsai-Wu, Hashin). GD&T interpretation is essential for understanding part manufacturing constraints. Technical writing skills are needed for producing formal stress reports.","- BS in Aerospace or Mechanical Engineering
+- 4+ years stress analysis experience
+- ANSYS and/or MSC Nastran for FEA
+- CATIA V5 for geometry interpretation
+- Fatigue and damage tolerance analysis
+- Composite failure analysis (Tsai-Wu, Hashin)
+- GD&T per ASME Y14.5
+- AS9100 stress report documentation
+- Structural analysis hand calculations
+- Technical writing for formal reports","Aerospace/Robotics"
+AR-007,"Flight Systems Mechanical Engineer","Orion Defense Systems","Colorado Springs, CO","Orion Defense Systems develops advanced flight systems for defense applications. We need a Flight Systems Mechanical Engineer to design mechanical assemblies for guidance, navigation, and control hardware. SolidWorks and CATIA are used for CAD modeling. You will perform FEA for vibration and shock qualification using ANSYS, design for extreme environments (-40C to +85C), and manage tolerance stack-ups across complex assemblies. GD&T documentation per ASME Y14.5 is mandatory. The role requires systems engineering for managing interfaces between mechanical, electrical, and software subsystems.","- BS in Mechanical or Aerospace Engineering
+- 5+ years flight hardware mechanical design
+- SolidWorks and/or CATIA
+- ANSYS FEA for vibration and shock
+- Thermal analysis for extreme environments
+- GD&T per ASME Y14.5
+- Tolerance stack-up analysis
+- Systems engineering for interface management
+- AS9100 compliance
+- US Citizenship required (defense projects)","Aerospace/Robotics"
+AR-008,"Robotics Software Engineer","TerraBot Automation","Boston, MA","TerraBot Automation develops mobile robots for warehouse automation. We need a Robotics Software Engineer to implement navigation, perception, and manipulation algorithms. You will write C++ and Python code within the ROS2 framework, develop SLAM algorithms, and integrate LIDAR and camera sensors. The role bridges software and mechanical engineering — you will work closely with the mechanical design team (SolidWorks) to ensure sensor mounting and cable routing are robust. Understanding of structural analysis for robot chassis design and systems engineering for full-stack integration is valuable.","- BS in Robotics, Mechanical, or Computer Engineering (MS preferred)
+- 3+ years robotics software development
+- C++ and Python proficiency
+- ROS2 framework experience
+- SLAM and path planning algorithms
+- Sensor integration (LIDAR, cameras, IMU)
+- SolidWorks familiarity for mechanical interface
+- Systems engineering mindset
+- Simulation tools (Gazebo, Isaac Sim)
+- Strong debugging and testing skills","Aerospace/Robotics"
+AR-009,"Composite Structures Engineer","AeroCraft Composites","Seattle, WA","AeroCraft Composites specializes in advanced composite structures for aerospace applications. We are hiring a Composite Structures Engineer to design carbon fiber and fiberglass structures, develop layup schedules, and perform structural analysis. SolidWorks and CATIA are used for ply modeling and tool design. FEA in ANSYS validates structural performance under flight loads. You will conduct fatigue analysis, apply composite failure criteria, and document designs per AS9100. GD&T for composite part specifications requires understanding of manufacturing variability. DFM review for autoclave and out-of-autoclave processes is essential.","- BS in Aerospace or Mechanical Engineering
+- 3+ years composite structures experience
+- SolidWorks and/or CATIA for ply modeling
+- ANSYS FEA for composite analysis
+- Composite failure criteria (Tsai-Wu, max strain)
+- Fatigue analysis for composite structures
+- GD&T for composite parts
+- AS9100 documentation
+- DFM for autoclave and OOA processes
+- Laminate analysis (classical lamination theory)","Aerospace/Robotics"
+AR-010,"Mechanisms Engineer","StarPath Mechanisms","Denver, CO","StarPath Mechanisms designs deployment mechanisms for solar arrays, antennas, and booms on satellites and spacecraft. We need a Mechanisms Engineer to design, analyze, and test mechanical deployment systems. CATIA V5 is used for detailed mechanism design. You will perform FEA in ANSYS for structural qualification, conduct kinematic analysis in MATLAB, and design test fixtures. GD&T is critical for precision mechanism components. The role requires fatigue and tribology knowledge for space-rated bearings and hinges. AS9100 documentation and systems engineering for mechanism interface management are core responsibilities. Technical writing skills for test reports are essential.","- BS in Mechanical or Aerospace Engineering
+- 4+ years mechanism design experience
+- CATIA V5 for mechanism modeling
+- ANSYS FEA for structural qualification
+- MATLAB for kinematic and dynamic analysis
+- GD&T per ASME Y14.5
+- Fatigue analysis for mechanism components
+- Space tribology and bearing design
+- AS9100 documentation
+- Systems engineering and technical writing","Aerospace/Robotics"
+AR-011,"Avionics Integration Engineer","Meridian Avionics","Tucson, AZ","Meridian Avionics integrates flight avionics systems for military and commercial aircraft. We need an Avionics Integration Engineer to design mechanical packaging for electronics assemblies, manage cable harness routing, and perform thermal analysis of avionics bays. SolidWorks is the primary CAD tool. You will coordinate with electrical engineers on connector specifications and EMI shielding. FEA in ANSYS validates vibration qualification of electronics enclosures. GD&T documentation ensures manufacturing precision. Systems engineering coordination is central to this role. AS9100 governs all documentation.","- BS in Mechanical or Aerospace Engineering
+- 3+ years avionics packaging experience
+- SolidWorks for electronics enclosure design
+- ANSYS FEA for vibration qualification
+- Thermal analysis for electronics cooling
+- GD&T per ASME Y14.5
+- Cable harness routing and connector selection
+- AS9100 documentation
+- Systems engineering for avionics integration
+- EMI/EMC awareness","Aerospace/Robotics"
+AR-012,"Satellite Mechanical Engineer","NovaStar Satellite","Cape Canaveral, FL","NovaStar Satellite designs small satellites for Earth observation. We need a Satellite Mechanical Engineer to design primary structures, mechanism interfaces, and payload mounting systems. CATIA V6 is our CAD platform. You will perform FEA in ANSYS for launch vibration, thermal cycling, and deployment loads. Lightweight optimization is critical — every gram matters in spacecraft design. GD&T and tolerance stack-up analysis ensure precision assembly. The role requires composites knowledge for structural panels, systems engineering for subsystem integration, and AS9100 compliance. Python and MATLAB are used for analysis automation.","- BS in Aerospace or Mechanical Engineering
+- 3+ years satellite or spacecraft design
+- CATIA V5/V6 for spacecraft structures
+- ANSYS FEA for launch and thermal loads
+- Lightweight optimization (topology, lattice)
+- GD&T and tolerance stack-up analysis
+- Composites for structural panels
+- Systems engineering for subsystem integration
+- AS9100 documentation
+- Python and MATLAB for analysis scripts","Aerospace/Robotics"
+AR-013,"Test Engineer - Aerospace","VerifyTech Aerospace","Palmdale, CA","VerifyTech Aerospace is seeking a Test Engineer to plan and execute structural, vibration, and thermal qualification tests for aerospace hardware. You will develop test plans, instrument hardware with strain gauges and accelerometers, and correlate test data with FEA predictions from ANSYS. SolidWorks is used for test fixture design. MATLAB and Python process test data. The role requires GD&T knowledge for pre-test dimensional inspection, fatigue analysis for test load spectra development, and technical writing for formal test reports. AS9100 governs our test documentation.","- BS in Aerospace or Mechanical Engineering
+- 3+ years aerospace test experience
+- Test planning (vibration, thermal, static)
+- ANSYS FEA for pre-test prediction
+- SolidWorks for test fixture design
+- MATLAB and Python for data processing
+- GD&T for dimensional inspection
+- Fatigue analysis for load spectra
+- AS9100 test documentation
+- Technical writing for test reports","Aerospace/Robotics"
+AR-014,"Aerostructures Design Engineer","WingSpan Aerospace","Seattle, WA","WingSpan Aerospace designs wing and empennage structures for regional aircraft. We need an Aerostructures Design Engineer to create detailed part models in CATIA V5, develop engineering drawings with GD&T, and coordinate with stress engineers on FEA. You will design metallic and composite structures, apply DFM principles for sheet metal forming and composite layup, and manage tolerance stack-ups across large assemblies. AS9100 compliance is mandatory. The role includes fatigue and damage tolerance awareness for certification. Structural analysis hand calculations supplement FEA results.","- BS in Aerospace or Mechanical Engineering
+- 3-5 years aerostructures design
+- CATIA V5 expert proficiency
+- GD&T per ASME Y14.5
+- Structural analysis awareness (hand calcs)
+- FEA coordination with stress team
+- Composite and metallic structure design
+- DFM for sheet metal and composite processes
+- Tolerance stack-up analysis
+- AS9100 documentation and fatigue awareness","Aerospace/Robotics"
+AR-015,"GN&C Mechanical Engineer","NavPoint Systems","Hampton, VA","NavPoint Systems develops guidance, navigation, and control hardware for missile and spacecraft applications. We need a GN&C Mechanical Engineer to design gimbal assemblies, sensor mounts, and actuator housings. SolidWorks and CATIA are used for CAD modeling. You will perform FEA in ANSYS for vibration and shock environments, conduct thermal analysis for electronics interfaces, and manage GD&T specifications for precision components. MATLAB and Simulink are used for mechanism dynamics simulation. Systems engineering is critical for managing GN&C mechanical-electrical-software interfaces. Tolerance stack-up analysis ensures pointing accuracy requirements are met.","- BS in Mechanical or Aerospace Engineering
+- 4+ years GN&C hardware design
+- SolidWorks and/or CATIA
+- ANSYS FEA for vibration and shock
+- Thermal analysis for electronics
+- GD&T and tolerance stack-up analysis
+- MATLAB/Simulink for dynamics simulation
+- Systems engineering for GN&C interfaces
+- AS9100 documentation
+- Precision mechanism design experience","Aerospace/Robotics"
+AR-016,"Robotics Mechanical Designer","Kinetic Robotics","Pittsburgh, PA","Kinetic Robotics builds human-scale legged robots for research and defense applications. We need a Robotics Mechanical Designer to create actuator housings, linkage systems, and structural frames in SolidWorks. You will perform FEA for dynamic loading scenarios, design for lightweight optimization using topology studies, and specify bearings and transmission components. The role requires GD&T for CNC-machined parts, DFM review for 3D printing and CNC, and collaboration with controls engineers using ROS2. C++ knowledge for real-time control interface is valuable.","- BS in Mechanical or Robotics Engineering
+- 2+ years robotic mechanism design
+- SolidWorks proficiency
+- FEA for dynamic load analysis
+- Lightweight optimization (topology)
+- GD&T per ASME Y14.5
+- DFM for CNC and additive manufacturing
+- 3D printing for rapid prototyping
+- ROS2 familiarity for hardware-software interface
+- C++ awareness for control systems","Aerospace/Robotics"
+AR-017,"Launch Vehicle Structures Engineer","Pinnacle Launch Systems","Hawthorne, CA","Pinnacle Launch Systems is hiring a Launch Vehicle Structures Engineer to analyze and design primary load-bearing structures for our orbital launch vehicle. You will perform FEA in ANSYS for launch loads including axial compression, bending, and vibration. CATIA V5 is used for detailed structural modeling. Fatigue analysis and damage tolerance assessment ensure flight safety. The role requires expertise in composite and metallic materials, GD&T for manufacturing specifications, and tolerance stack-up analysis. Lightweight optimization drives every design decision. AS9100 and systems engineering are core to our process. Python automates analysis workflows.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 5+ years launch vehicle or aircraft structures
+- ANSYS FEA expert
+- CATIA V5 for structural modeling
+- Fatigue and damage tolerance analysis
+- Composite and metallic structures
+- GD&T per ASME Y14.5
+- Tolerance stack-up analysis
+- Lightweight optimization
+- AS9100 and Python for automation","Aerospace/Robotics"
+AR-018,"Drone Mechanical Engineer","SkyLens UAV","San Diego, CA","SkyLens UAV develops inspection drones for infrastructure monitoring. We need a Drone Mechanical Engineer to design airframe structures, payload mounts, and landing gear in SolidWorks. You will perform structural FEA in ANSYS, CFD for drag reduction, and lightweight optimization to extend flight time. 3D printing and CNC machining are used for prototyping. GD&T documents production parts. The role includes DFM review, vibration analysis for camera stabilization, and thermal analysis for motor and ESC cooling. Python scripts automate design studies. This is a startup environment where you will own designs end-to-end.","- BS in Aerospace or Mechanical Engineering
+- 2-4 years drone or small aircraft design
+- SolidWorks for airframe design
+- ANSYS FEA for structural analysis
+- CFD for aerodynamic optimization
+- Lightweight optimization
+- 3D printing and CNC prototyping
+- GD&T per ASME Y14.5
+- DFM for production transition
+- Vibration and thermal analysis","Aerospace/Robotics"
+AR-019,"Payload Integration Engineer","Cosmos Spacecraft","Cape Canaveral, FL","Cosmos Spacecraft integrates scientific payloads onto our satellite platforms. We need a Payload Integration Engineer to manage mechanical interfaces between payloads and the spacecraft bus. You will create interface control documents using CATIA for CAD coordination, verify fit using tolerance stack-up analysis, and support vibration testing with FEA predictions from ANSYS. GD&T specifications define all mechanical interfaces. The role is deeply systems engineering — you coordinate thermal, structural, and electrical interfaces across multiple payload teams. MATLAB processes integration test data. AS9100 governs all documentation.","- BS in Aerospace or Mechanical Engineering
+- 3+ years payload or spacecraft integration
+- CATIA for interface modeling
+- ANSYS FEA for vibration prediction
+- GD&T for interface specifications
+- Tolerance stack-up analysis
+- Systems engineering for multi-payload coordination
+- MATLAB for data processing
+- AS9100 interface documentation
+- Vibration and thermal test support","Aerospace/Robotics"
+AR-020,"Robotics Research Engineer","DexterLab Robotics","Boston, MA","DexterLab Robotics conducts cutting-edge research in dexterous manipulation for robotic hands and arms. We need a Robotics Research Engineer to design novel gripper mechanisms, implement grasp planning algorithms in ROS2, and validate designs through simulation and hardware testing. SolidWorks is used for mechanism design, and FEA in ANSYS validates structural integrity. You will write C++ and Python code for real-time control, apply machine learning for grasp prediction, and publish results. Systems engineering thinking connects mechanical design to control software.","- MS or PhD in Robotics or Mechanical Engineering
+- Research experience in manipulation or grasping
+- SolidWorks for mechanism design
+- FEA for structural validation
+- ROS2 programming (C++ and Python)
+- Machine learning for robotics
+- Simulation tools (Gazebo, MuJoCo)
+- Systems engineering for hardware-software integration
+- Strong publication record
+- GD&T for prototype specifications","Aerospace/Robotics"
+AR-021,"Spacecraft Thermal Analyst","DeepOrbit Systems","Houston, TX","DeepOrbit Systems designs spacecraft for deep-space exploration missions. We need a Spacecraft Thermal Analyst to build thermal mathematical models, predict temperature extremes across mission phases, and design thermal control hardware. Thermal analysis is performed using ANSYS and Thermal Desktop. MATLAB and Python automate parametric studies. CATIA is used for heater placement and MLI blanket design. You will present thermal analysis at design reviews, generate reports per AS9100, and coordinate with systems engineering on thermal interface requirements. GD&T applies to thermal hardware mounting interfaces.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 4+ years spacecraft thermal analysis
+- ANSYS and/or Thermal Desktop
+- MATLAB and Python for thermal modeling
+- CATIA for thermal hardware design
+- Thermal control design (passive and active)
+- AS9100 thermal analysis reports
+- Systems engineering coordination
+- GD&T for thermal interfaces
+- Mission-level thermal budget management","Aerospace/Robotics"
+AR-022,"Manufacturing Engineer - Aerospace","PrecisionAero Manufacturing","Wichita, KS","PrecisionAero Manufacturing produces machined and fabricated components for aerospace OEMs. We need a Manufacturing Engineer to develop CNC machining processes for titanium and Inconel parts, design fixtures in SolidWorks, and ensure compliance with AS9100. GD&T expertise is critical for tight-tolerance flight hardware. You will implement SPC on critical dimensions, conduct DFM reviews with customers, and drive lean manufacturing improvements on our shop floor. FEA for fixture validation and root cause analysis for non-conformances are regular activities. Tolerance stack-up analysis ensures multi-operation parts meet specifications.","- BS in Mechanical or Manufacturing Engineering
+- 3+ years aerospace manufacturing
+- CNC machining (titanium, Inconel, aluminum)
+- SolidWorks for fixture design
+- GD&T expert per ASME Y14.5
+- AS9100 compliance
+- SPC for critical dimensions
+- DFM for machined parts
+- FEA for fixture validation
+- Tolerance stack-up and root cause analysis","Aerospace/Robotics"
+AR-023,"Spacecraft Configuration Manager","OrbitWorks Systems","Denver, CO","OrbitWorks Systems manages spacecraft development programs for government and commercial clients. We need a Spacecraft Configuration Manager to control design baselines, manage engineering change orders, and maintain the product data management system. CATIA is our primary CAD platform, and you must understand CATIA data structures for configuration control. The role requires understanding of aerospace structures, thermal, and mechanisms to evaluate change impacts through a systems engineering lens. GD&T and tolerance analysis knowledge helps assess drawing change requests. AS9100 drives our configuration management processes. Technical writing skills produce detailed impact assessments.","- BS in Aerospace or Mechanical Engineering
+- 3+ years configuration management experience
+- CATIA PDM administration
+- AS9100 configuration management
+- Systems engineering change evaluation
+- GD&T understanding for drawing review
+- Technical writing for impact assessments
+- Understanding of structures and mechanisms
+- Tolerance analysis awareness
+- Engineering change board participation","Aerospace/Robotics"
+AR-024,"Robotics Applications Engineer","FlexArm Robotics","San Jose, CA","FlexArm Robotics develops industrial robotic arms for food processing and logistics. We need a Robotics Applications Engineer to deploy robots at customer sites, develop pick-and-place applications, and design end-of-arm tooling. SolidWorks is used for gripper and fixture design. You will program robot motions using ROS2 and integrate with PLC-controlled production lines. Understanding of pneumatic grippers, force/torque sensors, and machine vision is required. GD&T for tooling specifications and DFM for CNC and 3D printed tooling components are daily tasks. Python scripts automate calibration and testing procedures.","- BS in Mechanical or Robotics Engineering
+- 2+ years robotics application deployment
+- SolidWorks for tooling design
+- ROS2 for robot programming
+- PLC integration for production lines
+- Pneumatic gripper design
+- GD&T for tooling specifications
+- DFM for CNC and 3D printing
+- Python for automation scripts
+- Machine vision integration experience","Aerospace/Robotics"
+AR-025,"Vibration Test Engineer","ShakeProof Aerospace","Dayton, OH","ShakeProof Aerospace provides vibration and shock testing services for aerospace and defense hardware. We need a Vibration Test Engineer to conduct random vibration, sine sweep, and shock tests per MIL-STD-810 and GEVS requirements. You will develop test fixtures in SolidWorks, perform pre-test FEA in ANSYS to predict resonance frequencies, and correlate test results with analytical models. MATLAB and Python process accelerometer data. GD&T applies to fixture specifications. Vibration analysis expertise is core — you will advise customers on qualification strategies. Technical writing produces formal test reports per AS9100.","- BS in Mechanical or Aerospace Engineering
+- 3+ years vibration testing experience
+- Vibration analysis (random, sine, shock)
+- ANSYS FEA for pre-test prediction
+- SolidWorks for test fixture design
+- MATLAB and Python for data processing
+- GD&T for fixture specifications
+- MIL-STD-810 and GEVS test standards
+- AS9100 test documentation
+- Technical writing for test reports","Aerospace/Robotics"
+AR-026,"Aerospace Intern - Structures","SkyForge Engineering","Huntsville, AL","SkyForge Engineering is offering an Aerospace Internship for current ME or AE students interested in structural analysis. You will assist senior engineers with FEA model building in ANSYS, help create SolidWorks test fixture models, and learn GD&T interpretation. Projects include mesh convergence studies, hand calculation verification of FEA results, and documentation per AS9100. This is a paid internship with exposure to real flight hardware analysis. Students preparing for the FE exam are encouraged to apply. MATLAB for post-processing analysis results will be taught.","- Currently pursuing BS in Aerospace or Mechanical Engineering
+- Completed junior year minimum
+- Basic FEA concepts (coursework level)
+- SolidWorks familiarity
+- MATLAB basics
+- Interest in structural analysis
+- Understanding of statics and mechanics of materials
+- GD&T awareness
+- FE exam preparation is a plus
+- Strong attention to detail","Aerospace/Robotics"
+AR-027,"Spacecraft Power Systems Engineer","SolarEdge Space","Houston, TX","SolarEdge Space designs solar array systems and power electronics for satellites. We need a Spacecraft Power Systems Engineer to design solar panel deployment mechanisms, battery mounting structures, and power electronics enclosures. CATIA is used for CAD modeling, and ANSYS for structural and thermal FEA. You will design for the space radiation and thermal cycling environment, apply lightweight optimization to minimize structure mass, and manage GD&T for precision mechanical interfaces. Systems engineering coordinates power system performance with thermal and structural constraints. MATLAB models power budgets.","- BS in Aerospace or Mechanical Engineering
+- 3+ years spacecraft power systems design
+- CATIA for mechanical design
+- ANSYS FEA for structural and thermal
+- Lightweight optimization for mass reduction
+- GD&T per ASME Y14.5
+- Thermal analysis for power electronics
+- Systems engineering for power budgets
+- MATLAB for modeling
+- AS9100 documentation","Aerospace/Robotics"
+AR-028,"Entry-Level Aerospace Engineer","AeroFirst Engineering","Tucson, AZ","AeroFirst Engineering is hiring an Entry-Level Aerospace Engineer to support our structures and mechanisms group. This is an excellent opportunity for recent graduates to gain hands-on aerospace engineering experience. You will assist with FEA model building in ANSYS, create part models in SolidWorks, generate drawings with GD&T, and support environmental testing. Training is provided on AS9100 documentation, fatigue analysis concepts, and tolerance stack-up analysis. Candidates with FE exam (EIT) certification receive preference. MATLAB and Python skills for data analysis are valuable.","- BS in Aerospace or Mechanical Engineering (recent graduate welcome)
+- Coursework in structures, dynamics, and thermodynamics
+- Basic SolidWorks and ANSYS experience
+- Understanding of FEA fundamentals
+- GD&T awareness
+- MATLAB and/or Python
+- FE exam (EIT) preferred
+- Strong problem-solving aptitude
+- Interest in aerospace career
+- Technical writing ability","Aerospace/Robotics"
+AR-029,"Robotic Arm Mechanical Engineer","GripTech Robotics","Pittsburgh, PA","GripTech Robotics develops custom robotic manipulators for industrial and research applications. We need a Robotic Arm Mechanical Engineer to design arm linkages, joint housings, and actuator mounts in SolidWorks. You will perform FEA in ANSYS for static and dynamic loading, specify servo motors and harmonic drives, and create engineering drawings with GD&T. The role involves DFM review for CNC-machined and 3D-printed components, vibration analysis for arm dynamics, and lightweight optimization to maximize payload capacity. ROS2 integration coordinates mechanical design with control algorithms written in C++ and Python.","- BS in Mechanical or Robotics Engineering
+- 3+ years robotic arm design
+- SolidWorks proficiency
+- ANSYS FEA for static and dynamic analysis
+- GD&T per ASME Y14.5
+- DFM for CNC and additive manufacturing
+- 3D printing for prototyping
+- Vibration analysis for arm dynamics
+- Lightweight optimization
+- ROS2 and C++ familiarity","Aerospace/Robotics"
+AR-030,"Aerodynamics Engineer","FlowTech Aerospace","Seattle, WA","FlowTech Aerospace is hiring an Aerodynamics Engineer to perform CFD analysis for commercial aircraft wing and nacelle configurations. You will use ANSYS Fluent and Star-CCM+ for external aerodynamics simulation, generate aerodynamic databases for flight simulation, and correlate CFD with wind tunnel data. CATIA V5 is used for geometry preparation. MATLAB and Python automate parametric studies and data post-processing. The role requires understanding of structural loading from aerodynamic pressures (aeroelastic analysis coordination) and systems engineering for integrating aero loads into the structural design process. Technical writing produces formal aerodynamic reports.","- BS in Aerospace Engineering (MS preferred)
+- 3+ years aerodynamics or CFD experience
+- ANSYS Fluent and/or Star-CCM+
+- CFD for external aerodynamics
+- CATIA V5 for geometry preparation
+- MATLAB and Python for automation
+- Aeroelastic analysis awareness
+- Systems engineering for load integration
+- Technical writing for aero reports
+- Wind tunnel correlation experience","Aerospace/Robotics"
+AR-031,"Additive Manufacturing Engineer - Aerospace","RocketPrint Technologies","Huntsville, AL","RocketPrint Technologies specializes in metal additive manufacturing for rocket engine and spacecraft components. We need an Additive Manufacturing Engineer to develop print parameters for Inconel and titanium parts, design build supports, and validate printed parts through testing. SolidWorks is used for part preparation, and ANSYS FEA for structural validation of printed components. GD&T governs acceptance criteria. The role includes DFM comparison between additive and traditional manufacturing, lightweight optimization through lattice structures, and AS9100 process documentation. Python automates build data analysis.","- BS in Mechanical or Materials Engineering
+- 2+ years metal additive manufacturing
+- SolidWorks for part and support design
+- ANSYS FEA for printed part validation
+- GD&T per ASME Y14.5
+- 3D printing (SLM, EBM technologies)
+- DFM for additive vs. traditional comparison
+- Lightweight optimization (lattice structures)
+- AS9100 process documentation
+- Python for data analysis","Aerospace/Robotics"
+AR-032,"Flight Test Instrumentation Engineer","TestFlight Systems","Edwards AFB, CA","TestFlight Systems supports flight test programs for military aircraft. We need a Flight Test Instrumentation Engineer to design sensor installations, route instrumentation wiring, and analyze flight test data. SolidWorks is used for bracket and mounting design with GD&T documentation. MATLAB and Python process telemetry data. The role requires structural analysis awareness for mounting hardware in flight-load environments, vibration analysis for sensor placement, and technical writing for instrumentation plans and test reports. AS9100 documentation is standard. Systems engineering coordinates with the flight test team.","- BS in Aerospace or Mechanical Engineering
+- 3+ years flight test or instrumentation experience
+- SolidWorks for mounting bracket design
+- GD&T per ASME Y14.5
+- MATLAB and Python for data analysis
+- Structural analysis awareness for mounts
+- Vibration analysis for sensor placement
+- AS9100 documentation
+- Technical writing for test plans
+- Systems engineering coordination","Aerospace/Robotics"
+AR-033,"Autonomous Vehicle Engineer","AutoNav Robotics","San Jose, CA","AutoNav Robotics develops autonomous ground vehicles for defense and commercial applications. We need an Autonomous Vehicle Engineer to design vehicle structural modifications, sensor mounting brackets, and ruggedized electronics enclosures in SolidWorks. FEA in ANSYS validates designs for rough-terrain loading. The role requires DFM for CNC and sheet metal fabrication, GD&T documentation, and thermal analysis for electronics cooling. You will work closely with the autonomy software team using ROS2 and Python. Systems engineering ensures mechanical design supports sensor field-of-view and vehicle dynamics requirements. Machine learning integration for perception system evaluation is growing.","- BS in Mechanical or Robotics Engineering
+- 3+ years vehicle or robotics mechanical design
+- SolidWorks for structural and enclosure design
+- ANSYS FEA for off-road loading
+- DFM for CNC and sheet metal
+- GD&T per ASME Y14.5
+- Thermal analysis for electronics
+- ROS2 and Python familiarity
+- Systems engineering for sensor integration
+- Machine learning awareness","Aerospace/Robotics"
+AR-034,"Landing Gear Engineer","TouchDown Aerospace","Wichita, KS","TouchDown Aerospace designs landing gear systems for military and commercial aircraft. We need a Landing Gear Engineer to design strut assemblies, actuators, and retraction mechanisms in CATIA V5. You will perform FEA in ANSYS for landing impact loads and fatigue life prediction. The role requires expertise in hydraulic actuator design, GD&T for precision machined components, and tolerance stack-up analysis for kinematic mechanisms. Fatigue analysis and damage tolerance drive design decisions. AS9100 documentation and systems engineering for landing gear integration with the airframe are essential.","- BS in Mechanical or Aerospace Engineering
+- 5+ years landing gear or mechanism design
+- CATIA V5 for mechanism modeling
+- ANSYS FEA for impact and fatigue loads
+- Hydraulic actuator design
+- GD&T per ASME Y14.5
+- Tolerance stack-up for mechanisms
+- Fatigue and damage tolerance analysis
+- AS9100 documentation
+- Systems engineering for airframe integration","Aerospace/Robotics"
+AR-035,"Senior Robotics Engineer","Autonomous Systems Lab","Boston, MA","The Autonomous Systems Lab develops next-generation robotic platforms for healthcare and logistics. We need a Senior Robotics Engineer to lead mechanical design of robot platforms, integrate sensors and actuators, and coordinate with software teams on ROS2-based control systems. SolidWorks is used for all mechanical design. FEA in ANSYS validates structural and dynamic performance. You will apply lightweight optimization, specify motors and transmissions, and mentor junior engineers. C++ and Python are used for hardware interface code. Systems engineering manages the full robot architecture. GD&T ensures manufacturing precision for precision mechanism components.","- BS/MS in Mechanical or Robotics Engineering
+- 7+ years robotics mechanical design
+- SolidWorks expert proficiency
+- ANSYS FEA for dynamic analysis
+- ROS2 integration (C++ and Python)
+- Lightweight optimization for payload capacity
+- Motor and transmission specification
+- GD&T per ASME Y14.5
+- Systems engineering for robot architecture
+- Technical leadership and mentoring","Aerospace/Robotics"
+AR-036,"Spacecraft Structures Analyst","GravityWell Space","Cape Canaveral, FL","GravityWell Space develops reusable launch vehicles. We need a Spacecraft Structures Analyst to perform detailed FEA of tank structures, interstage adapters, and payload fairings using ANSYS. CATIA V5 models define the geometry. You will calculate margins of safety, perform buckling analysis, and assess fatigue life for reusable structures. Composite and metallic material analysis is required. GD&T documentation per ASME Y14.5 supports manufacturing. Lightweight optimization is critical for vehicle performance. Python and MATLAB automate analysis workflows. Systems engineering coordinates structural analysis with propulsion and thermal teams. AS9100 compliance is required.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 4+ years structural analysis for launch vehicles
+- ANSYS FEA expert (static, buckling, dynamic)
+- CATIA V5 for geometry interpretation
+- Composite and metallic analysis
+- Fatigue analysis for reusable structures
+- GD&T per ASME Y14.5
+- Lightweight optimization
+- Python and MATLAB for automation
+- Systems engineering and AS9100","Aerospace/Robotics"
+AR-037,"Robotics Controls Engineer","MotionIQ Robotics","San Diego, CA","MotionIQ Robotics develops high-speed pick-and-place robots for electronics manufacturing. We need a Robotics Controls Engineer to design and tune servo control systems, implement trajectory planning algorithms, and optimize robot dynamic performance. C++ and Python are used within the ROS2 framework. You will work with mechanical designers (SolidWorks) on arm dynamics, perform vibration analysis to minimize resonance, and use MATLAB/Simulink for control system simulation. Understanding of structural FEA for validating robot arm rigidity and systems engineering for the full control stack is important.","- BS/MS in Mechanical or Electrical Engineering
+- 3+ years servo control and motion planning
+- C++ and Python proficiency
+- ROS2 framework experience
+- MATLAB/Simulink for control simulation
+- SolidWorks familiarity for mechanical interface
+- Vibration analysis for dynamic tuning
+- FEA awareness for arm rigidity
+- Systems engineering for controls architecture
+- High-speed trajectory planning experience","Aerospace/Robotics"
+AR-038,"Aerospace Quality Engineer","QualityAero Solutions","Tucson, AZ","QualityAero Solutions provides quality engineering services for aerospace manufacturers. We need an Aerospace Quality Engineer to manage AS9100 compliance, conduct supplier audits, and lead root cause analysis on non-conforming hardware. GD&T expertise is critical for interpreting drawings and verifying machined and fabricated parts. You will facilitate DFMEA reviews, manage SPC programs for critical characteristics, and generate customer quality reports. SolidWorks drawing review capability ensures accurate disposition of non-conformances. Understanding of CNC machining, composite fabrication, and additive manufacturing quality features of our business is important. ISO 9001 is the foundation of our quality system.","- BS in Mechanical or Aerospace Engineering
+- 4+ years aerospace quality engineering
+- AS9100 expert (lead auditor preferred)
+- GD&T expert per ASME Y14.5
+- DFMEA facilitation
+- SPC for critical characteristics
+- Root cause analysis (8D methodology)
+- SolidWorks drawing review
+- CNC and composite quality knowledge
+- ISO 9001 foundation and technical writing","Aerospace/Robotics"
+AR-039,"Rocket Engine Test Engineer","FlamePoint Propulsion","Stennis Space Center, MS","FlamePoint Propulsion develops and tests liquid rocket engines. We need a Rocket Engine Test Engineer to design test stands, instrument engines, and analyze hot-fire test data. SolidWorks is used for test stand structural design with GD&T documentation. FEA in ANSYS validates structures under thrust and thermal loads. MATLAB and Python process high-speed pressure and temperature data. The role requires thermal analysis expertise, understanding of propulsion systems, and AS9100 test documentation. Systems engineering coordinates test objectives with the design team. Technical writing produces formal test reports.","- BS in Aerospace or Mechanical Engineering
+- 3+ years propulsion or test engineering
+- SolidWorks for test stand design
+- ANSYS FEA for structural and thermal analysis
+- MATLAB and Python for data processing
+- GD&T per ASME Y14.5
+- Thermal analysis for combustion systems
+- AS9100 test documentation
+- Systems engineering coordination
+- Technical writing for test reports","Aerospace/Robotics"
+AR-040,"EOAT Design Engineer - Robotics","GripStar Solutions","Grand Rapids, MI","GripStar Solutions designs end-of-arm tooling for industrial robots in automotive and aerospace manufacturing. We need an EOAT Design Engineer to create custom gripper and fixture designs in SolidWorks. You will specify pneumatic actuators, vacuum cups, and mechanical clamps. FEA validates tooling under dynamic loads from robot motion. GD&T ensures tooling meets part positioning requirements. DFM review for CNC and 3D printing drives efficient fabrication. You will integrate tooling with FANUC and ABB robots and PLC cell controllers. Lightweight optimization maximizes robot payload capacity.","- BS in Mechanical Engineering
+- 3+ years EOAT or fixture design
+- SolidWorks proficiency
+- FEA for dynamic load validation
+- Pneumatic actuator specification
+- GD&T per ASME Y14.5
+- DFM for CNC and 3D printing
+- 3D printing for prototyping
+- FANUC/ABB robot integration
+- Lightweight optimization for payload","Aerospace/Robotics"
+AR-041,"CFD Analyst - Propulsion","ThrustDynamics Aerospace","Huntsville, AL","ThrustDynamics Aerospace performs CFD analysis for rocket engine and gas turbine clients. We need a CFD Analyst to run complex internal and external flow simulations using ANSYS Fluent. You will model combustion, heat transfer, and multi-phase flows. CATIA is used for geometry preparation. MATLAB and Python automate meshing and post-processing workflows. The role requires strong thermal analysis skills, understanding of structural loads from pressure fields, and technical writing for analysis reports. AS9100 and systems engineering discipline govern our work.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 3+ years CFD analysis experience
+- ANSYS Fluent expert
+- CATIA for geometry preparation
+- Thermal analysis of propulsion systems
+- MATLAB and Python for automation
+- CFD meshing best practices
+- AS9100 analysis documentation
+- Systems engineering for load coordination
+- Technical writing for analysis reports","Aerospace/Robotics"
+AR-042,"Satellite Integration Technician Lead","MicroSat Assemblies","Cape Canaveral, FL","MicroSat Assemblies integrates CubeSat and SmallSat platforms. We need a Satellite Integration Technician Lead to manage clean room assembly, perform mechanical integration of subsystems, and verify fit per GD&T specifications. SolidWorks assembly models guide integration procedures. You will torque fasteners per specifications, perform harnessing, and support vibration and thermal vacuum testing. AS9100 work instructions govern all activities. Understanding of composite and metallic structures, systems engineering integration sequences, and tolerance stack-up verification is required. Technical writing produces integration procedures and as-built documentation.","- Associates or BS in Mechanical Engineering
+- 4+ years spacecraft integration experience
+- SolidWorks for assembly model review
+- GD&T per ASME Y14.5
+- Clean room assembly procedures
+- AS9100 work instruction compliance
+- Vibration and TVAC test support
+- Composite and metallic hardware handling
+- Tolerance stack-up verification
+- Technical writing for integration procedures","Aerospace/Robotics"
+AR-043,"Helicopter Rotor Dynamics Engineer","RotorTech Aerospace","Philadelphia, PA","RotorTech Aerospace designs rotor systems for military and commercial helicopters. We need a Rotor Dynamics Engineer to perform vibration analysis of rotating components, analyze blade fatigue life, and optimize rotor hub designs. CATIA V5 is used for CAD modeling, and ANSYS for structural and dynamic FEA. MATLAB analyzes frequency response data and rotor dynamics models. The role requires deep knowledge of fatigue analysis, composite blade structures, and GD&T for precision rotating components. Systems engineering coordinates rotor design with flight control requirements. AS9100 documentation is standard.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 5+ years rotorcraft or rotating machinery
+- CATIA V5 for rotor component modeling
+- ANSYS FEA for dynamic and fatigue analysis
+- MATLAB for rotor dynamics modeling
+- Vibration analysis for rotating systems
+- Fatigue analysis and damage tolerance
+- Composite blade structure design
+- GD&T for rotating components
+- AS9100 and systems engineering","Aerospace/Robotics"
+AR-044,"Space Mechanisms Test Engineer","DeployTech Space","Denver, CO","DeployTech Space designs deployment mechanisms for solar arrays and antennas. We need a Space Mechanisms Test Engineer to plan and execute functional, vibration, and thermal vacuum tests on flight mechanism hardware. SolidWorks designs test fixtures and ground support equipment. FEA in ANSYS predicts test environments. MATLAB and Python process high-speed camera and sensor data from deployment tests. GD&T inspection verifies mechanism tolerances before and after testing. Fatigue analysis informs test load levels. AS9100 governs test documentation. Systems engineering coordinates test objectives with the mechanism design team.","- BS in Mechanical or Aerospace Engineering
+- 3+ years mechanism testing experience
+- SolidWorks for test fixture design
+- ANSYS FEA for test environment prediction
+- MATLAB and Python for data processing
+- GD&T for pre/post-test inspection
+- Fatigue analysis for test load definition
+- Vibration and TVAC testing
+- AS9100 test documentation
+- Systems engineering for test coordination","Aerospace/Robotics"
+AR-045,"Autonomous Drone Software Engineer","SkySense Autonomy","Austin, TX","SkySense Autonomy develops autonomous flight software for commercial drones. We need an Autonomous Drone Software Engineer to implement perception, planning, and control algorithms. You will write C++ and Python within the ROS2 framework, integrate LIDAR, cameras, and IMU sensors, and test in simulation (Gazebo, AirSim). While primarily a software role, understanding of drone mechanical design (SolidWorks models), structural analysis constraints, and systems engineering is essential for designing robust autonomous behaviors. MATLAB for control algorithm prototyping and machine learning for perception are key skills.","- BS/MS in Robotics, Aerospace, or Computer Engineering
+- 3+ years autonomous systems development
+- C++ and Python proficiency
+- ROS2 framework expertise
+- SLAM, path planning, and perception algorithms
+- Machine learning for vision-based perception
+- MATLAB for control prototyping
+- Sensor integration (LIDAR, cameras, IMU)
+- SolidWorks familiarity for mechanical understanding
+- Systems engineering for autonomous architecture","Aerospace/Robotics"
+AR-046,"Aerospace Materials Engineer","MateriAero Technologies","Dayton, OH","MateriAero Technologies is a materials testing and consulting firm serving aerospace OEMs. We need an Aerospace Materials Engineer to characterize metallic and composite material properties, conduct coupon testing, and generate material allowables for structural analysis. SolidWorks designs test specimens and fixtures. ANSYS FEA correlates with test data. The role requires understanding of fatigue properties, composite layup effects, and lightweight optimization through material selection. GD&T applies to specimen specifications. AS9100 and NADCAP govern our testing processes. Python and MATLAB analyze test data. Technical writing produces formal material data reports.","- BS in Mechanical or Materials Engineering (MS preferred)
+- 3+ years aerospace materials testing
+- SolidWorks for specimen and fixture design
+- ANSYS FEA for test correlation
+- Fatigue testing and S-N curve generation
+- Composite material characterization
+- Lightweight optimization through material selection
+- GD&T for specimen specifications
+- AS9100 and NADCAP compliance
+- Python, MATLAB, and technical writing","Aerospace/Robotics"
+AR-047,"Robot Simulation Engineer","SimBot Technologies","Pittsburgh, PA","SimBot Technologies creates digital twin simulations for robotic systems. We need a Robot Simulation Engineer to build physics-based simulations of robotic arms, mobile platforms, and grippers. You will use Python and C++ within ROS2, develop simulation environments in Gazebo and Isaac Sim, and validate simulation fidelity against hardware data. SolidWorks models are imported for accurate geometry. FEA data informs structural compliance models. MATLAB validates control algorithm performance. The role requires systems engineering to ensure simulation covers all relevant physics. Machine learning is used for sim-to-real transfer learning.","- BS/MS in Robotics, Mechanical, or Computer Engineering
+- 3+ years robot simulation experience
+- Python and C++ proficiency
+- ROS2 and simulation tools (Gazebo, Isaac Sim)
+- SolidWorks model import and processing
+- FEA awareness for compliance modeling
+- MATLAB for control validation
+- Machine learning for sim-to-real transfer
+- Systems engineering for simulation fidelity
+- Physics-based modeling expertise","Aerospace/Robotics"
+AR-048,"Wing Design Engineer","AeroWing Structures","Seattle, WA","AeroWing Structures designs wing structural components for next-generation commercial aircraft. We need a Wing Design Engineer to create rib, spar, and skin panel designs in CATIA V5, coordinate with stress engineers on FEA loading, and generate production drawings with GD&T. You will design for both metallic (aluminum) and composite (CFRP) construction, apply DFM principles for assembly optimization, and manage tolerance stack-ups across large wing box structures. Fatigue and damage tolerance awareness guides design decisions. AS9100 documentation is mandatory. Structural analysis hand calculations supplement FEA. Lightweight optimization is always the goal.","- BS in Aerospace or Mechanical Engineering
+- 4+ years wing or aerostructures design
+- CATIA V5 expert proficiency
+- GD&T per ASME Y14.5
+- Composite and metallic design
+- DFM for aerospace manufacturing
+- Tolerance stack-up analysis
+- Fatigue and damage tolerance awareness
+- Structural analysis hand calculations
+- AS9100 and lightweight optimization","Aerospace/Robotics"
+AR-049,"Robotics Manufacturing Engineer","BotBuild Manufacturing","Grand Rapids, MI","BotBuild Manufacturing produces robotic arm components and assemblies. We need a Robotics Manufacturing Engineer to develop CNC machining processes for precision robot joint components, design assembly fixtures in SolidWorks, and implement SPC on critical dimensions. GD&T expertise ensures tight-tolerance rotating components meet specifications. The role includes DFM feedback to the design team, root cause analysis for quality issues, and lean manufacturing for assembly optimization. FEA validates fixture designs. Industrial robotics knowledge is needed to understand the products we build. ISO 9001 governs our quality system.","- BS in Mechanical or Manufacturing Engineering
+- 3+ years precision manufacturing experience
+- CNC machining for tight-tolerance parts
+- SolidWorks for fixture design
+- GD&T expert per ASME Y14.5
+- SPC for critical dimensions
+- DFM feedback to design team
+- FEA for fixture validation
+- Root cause analysis
+- Industrial robotics knowledge and ISO 9001","Aerospace/Robotics"
+AR-050,"Propulsion Thermal Analyst","IgniteSpace Systems","Hawthorne, CA","IgniteSpace Systems designs next-generation rocket engines. We need a Propulsion Thermal Analyst to model heat transfer in combustion chambers, nozzles, and turbopumps. You will use ANSYS Fluent for conjugate heat transfer analysis and ANSYS Mechanical for thermal stress FEA. CATIA V5 provides CAD geometry. MATLAB and Python automate thermal boundary condition generation and results extraction. The role requires understanding of high-temperature materials, cooling channel design, and thermal barrier coatings. GD&T applies to thermal management hardware. AS9100 documentation and systems engineering for thermal-structural integration are core. Lightweight optimization reduces engine mass.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 3+ years thermal analysis for propulsion
+- ANSYS Fluent for conjugate heat transfer
+- ANSYS Mechanical for thermal stress
+- CATIA V5 for geometry
+- MATLAB and Python for automation
+- High-temperature materials knowledge
+- Thermal analysis and cooling design
+- GD&T and AS9100
+- Systems engineering and lightweight optimization","Aerospace/Robotics"
+AR-051,"Helicopter Structures Engineer","VertiFlight Aerospace","Philadelphia, PA","VertiFlight Aerospace designs structural components for military helicopters. We need a Helicopter Structures Engineer to analyze and design fuselage, cabin, and tail boom structures. CATIA V5 is the primary CAD tool. ANSYS is used for FEA including crash, fatigue, and vibration analysis. The role requires expertise in metallic and composite structures, GD&T for manufacturing specifications, and tolerance stack-up for large assembly interfaces. DFM coordinates with production. Fatigue analysis drives inspection intervals. AS9100 and MIL-HDBK documentation standards apply. Systems engineering manages structural interfaces. SolidWorks may be used for component-level design.","- BS in Aerospace or Mechanical Engineering
+- 5+ years rotorcraft or aircraft structures
+- CATIA V5 for structural design
+- ANSYS FEA (static, fatigue, dynamic)
+- Composite and metallic structure analysis
+- GD&T per ASME Y14.5
+- Tolerance stack-up for large assemblies
+- DFM for aerospace production
+- Fatigue analysis and damage tolerance
+- AS9100 and systems engineering","Aerospace/Robotics"
+AR-052,"Underwater Robotics Engineer","DeepBlue Robotics","San Diego, CA","DeepBlue Robotics builds remotely operated and autonomous underwater vehicles. We need an Underwater Robotics Engineer to design pressure housings, manipulator arms, and buoyancy systems. SolidWorks is the primary CAD tool. FEA in ANSYS validates designs for deep-water pressure loads. CFD optimizes hydrodynamic drag. You will apply GD&T to critical sealing interfaces, design for CNC and additive manufacturing, and apply lightweight optimization for buoyancy management. ROS2 and Python interface hardware with autonomy software. The role requires systems engineering for full-vehicle integration and thermal analysis for electronics enclosures.","- BS in Mechanical or Ocean Engineering
+- 3+ years underwater vehicle or marine design
+- SolidWorks for mechanical design
+- ANSYS FEA for pressure analysis
+- CFD for hydrodynamic optimization
+- GD&T for sealing interfaces
+- DFM for CNC and 3D printing
+- Lightweight optimization for buoyancy
+- ROS2 and Python for software interface
+- Systems engineering and thermal analysis","Aerospace/Robotics"
+AR-053,"Satellite Antenna Mechanical Engineer","CommStar Space","Houston, TX","CommStar Space designs communication satellite antenna systems. We need a Satellite Antenna Mechanical Engineer to design reflector structures, feed horn mounts, and deployment mechanisms. CATIA is the primary CAD platform. You will perform FEA in ANSYS for thermal distortion, vibration qualification, and deployment dynamics. GD&T specifications ensure RF surface accuracy after manufacturing and environmental exposure. The role requires composites knowledge for reflector structures, systems engineering for antenna-spacecraft mechanical interfaces, and tolerance stack-up analysis for pointing accuracy. AS9100 documentation is standard. MATLAB models mechanism kinematics. Lightweight optimization is critical.","- BS in Mechanical or Aerospace Engineering
+- 3+ years antenna or spacecraft mechanism design
+- CATIA for reflector and mechanism design
+- ANSYS FEA for thermal distortion and vibration
+- GD&T for RF surface specifications
+- Composites for reflector structures
+- Tolerance stack-up for pointing accuracy
+- Systems engineering for antenna integration
+- MATLAB for kinematic modeling
+- AS9100 and lightweight optimization","Aerospace/Robotics"
+AR-054,"Aerospace Fastener Engineer","JointTech Aerospace","Wichita, KS","JointTech Aerospace is a fastener distributor and engineering services firm for the aerospace industry. We need a Fastener Engineer to support aircraft OEMs with joint analysis, fastener selection, and installation specification development. You will perform structural analysis of bolted and riveted joints using hand calculations and FEA in ANSYS. SolidWorks and CATIA are used for joint modeling. GD&T and tolerance stack-up analysis ensure proper fit. The role requires fatigue analysis of joints, understanding of composite-metallic interface features and considerations, and AS9100 documentation. Creo is used by some of our customers. Technical writing produces installation specifications.","- BS in Mechanical or Aerospace Engineering
+- 3+ years aerospace joint analysis
+- FEA in ANSYS for joint analysis
+- SolidWorks and/or CATIA
+- Creo familiarity for customer models
+- GD&T and tolerance stack-up
+- Fatigue analysis for joints
+- Composite-metallic interface knowledge
+- AS9100 documentation
+- Structural analysis hand calculations and technical writing","Aerospace/Robotics"
+AR-055,"Senior Spacecraft Mechanical Engineer","Celestial Dynamics","Denver, CO","Celestial Dynamics develops science instruments for planetary exploration missions. We need a Senior Spacecraft Mechanical Engineer to lead mechanical design of instrument optical benches, detector mounts, and thermal shields. CATIA V5 is our CAD platform. ANSYS performs structural and thermal FEA for launch and operational environments. You will apply lightweight optimization aggressively — our mass budgets are extremely tight. GD&T and tolerance stack-up analysis ensure optical alignment. The role requires composites knowledge, fatigue analysis for mechanisms, and systems engineering to coordinate with optical, electrical, and thermal teams. Python and MATLAB automate analysis. AS9100 documentation is mandatory.","- BS/MS in Aerospace or Mechanical Engineering
+- 8+ years spacecraft mechanical design
+- CATIA V5 expert
+- ANSYS FEA for structures and thermal
+- Lightweight optimization for tight mass budgets
+- GD&T and tolerance stack-up
+- Composites for structural design
+- Fatigue analysis for mechanisms
+- Systems engineering for instrument integration
+- Python, MATLAB, and AS9100","Aerospace/Robotics"
+AR-056,"Agricultural Robotics Mechanical Engineer","AgriBot Systems","Ames, IA","AgriBot Systems develops autonomous robots for precision agriculture. We need a Mechanical Engineer to design chassis structures, manipulation arms, and environmental enclosures for outdoor robots operating in harsh conditions. SolidWorks is the primary CAD tool. FEA in ANSYS validates designs for rough-terrain loading and environmental sealing. You will design for CNC machining and sheet metal fabrication with DFM review. GD&T documents critical interfaces. ROS2 and Python connect hardware to the autonomy stack. Thermal analysis ensures electronics survive temperature extremes. Lightweight optimization extends battery life.","- BS in Mechanical or Agricultural Engineering
+- 2+ years outdoor robotics or vehicle design
+- SolidWorks for structural and enclosure design
+- ANSYS FEA for terrain loading
+- DFM for CNC and sheet metal
+- GD&T per ASME Y14.5
+- ROS2 and Python for software integration
+- Thermal analysis for electronics
+- Lightweight optimization
+- Environmental sealing design (IP ratings)","Aerospace/Robotics"
+AR-057,"Rocket Structures Intern","LaunchPad Engineering","Hawthorne, CA","LaunchPad Engineering is offering a Rocket Structures Internship for current AE or ME students. You will support structural analysis of launch vehicle components using ANSYS FEA under senior engineer mentorship. SolidWorks and CATIA model building will be taught. You will learn GD&T interpretation, fatigue analysis basics, and AS9100 documentation practices. MATLAB and Python for analysis data processing are used daily. This is a paid 12-week internship with potential for full-time conversion. Students preparing for the FE exam receive additional mentoring. Lightweight optimization concepts will be introduced through real flight hardware projects.","- Currently pursuing BS in Aerospace or Mechanical Engineering
+- Completed junior year minimum
+- Coursework in structures and mechanics of materials
+- Basic SolidWorks or CATIA experience
+- MATLAB and/or Python basics
+- Interest in launch vehicles and space systems
+- GD&T awareness from coursework
+- FE exam preparation is a plus
+- Strong analytical skills
+- Eagerness to learn FEA and structural analysis","Aerospace/Robotics"
+AR-058,"Exoskeleton Mechanical Engineer","ExoMotion Technologies","Boston, MA","ExoMotion Technologies develops powered exoskeletons for rehabilitation and industrial use. We need a Mechanical Engineer to design exoskeleton linkages, actuator assemblies, and body-interface structures. SolidWorks is the primary CAD tool. FEA in ANSYS validates designs under biomechanical loading. You will apply lightweight optimization to minimize device mass while maintaining strength and stiffness. GD&T ensures precision for CNC-machined joint components. 3D printing is used for rapid prototyping. ROS2 and C++ interface with the motor control system. The role requires DFM review for production transition and systems engineering for the full human-robot system.","- BS/MS in Mechanical or Biomedical Engineering
+- 3+ years exoskeleton or wearable robotics design
+- SolidWorks proficiency
+- ANSYS FEA for biomechanical loading
+- Lightweight optimization for wearable mass
+- GD&T per ASME Y14.5
+- 3D printing for rapid prototyping
+- DFM for CNC production
+- ROS2 and C++ for motor control interface
+- Systems engineering for human-robot system","Aerospace/Robotics"
+AR-059,"Turbine Engine Mechanical Designer","BladeForge Aerospace","Cincinnati, OH","BladeForge Aerospace designs turbine engine components for military and commercial applications. We need a Mechanical Designer to model turbine blades, disks, and casings in Creo Parametric. FEA in ANSYS performs thermal and structural analysis for extreme operating conditions. The role requires deep knowledge of high-temperature materials (nickel superalloys, ceramic matrix composites), GD&T for precision rotating components, and fatigue analysis under vibratory loading. Tolerance stack-up ensures rotor balance requirements. DFM for investment casting and CNC machining is essential. AS9100 documentation. MATLAB for data analysis. Systems engineering coordinates with the propulsion team.","- BS in Mechanical or Aerospace Engineering
+- 4+ years turbine engine design
+- Creo Parametric for component modeling
+- ANSYS FEA for thermal and structural analysis
+- High-temperature materials knowledge
+- GD&T for rotating components
+- Fatigue analysis under vibratory loading
+- Tolerance stack-up for rotor balance
+- DFM for casting and CNC
+- AS9100, MATLAB, and systems engineering","Aerospace/Robotics"
+AR-060,"Space Habitat Structural Engineer","NewFrontier Habitats","Houston, TX","NewFrontier Habitats designs pressurized modules for commercial space stations. We need a Space Habitat Structural Engineer to analyze and design pressure vessel structures, berthing interfaces, and internal outfitting. CATIA V5 is the primary CAD tool. ANSYS performs FEA for pressurization, docking loads, and micrometeoroid impact. You will apply fatigue analysis for the 15-year mission life, GD&T for weld joint preparations and critical interfaces, and tolerance stack-up for docking mechanisms. Lightweight optimization reduces launch mass. Composites and metallic structures are both used. AS9100 and systems engineering are core. Python and MATLAB automate analysis.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 4+ years pressure vessel or spacecraft structures
+- CATIA V5 for structural design
+- ANSYS FEA for pressurization and dynamic loads
+- Fatigue analysis for long-duration missions
+- GD&T per ASME Y14.5
+- Tolerance stack-up for mechanisms
+- Lightweight optimization
+- Composites and metallic structures
+- AS9100, systems engineering, Python, and MATLAB","Aerospace/Robotics"
+AR-061,"Drone Delivery Systems Engineer","SwiftDrop Logistics","Austin, TX","SwiftDrop Logistics develops drone delivery systems for urban package delivery. We need a Systems Engineer to integrate airframe mechanical design, payload release mechanisms, and autonomy software. SolidWorks is used for mechanism and structure design. FEA in ANSYS validates flight loads. CFD optimizes aerodynamic efficiency. The role requires GD&T documentation, DFM for 3D printing and CNC, and lightweight optimization for maximum payload fraction. ROS2 and Python interface with flight control. Systems engineering manages the full vehicle from airframe through software. MATLAB for flight performance modeling is used. Machine learning improves delivery accuracy.","- BS in Aerospace, Mechanical, or Systems Engineering
+- 3+ years drone or UAV systems experience
+- SolidWorks for mechanical design
+- ANSYS FEA for flight loads
+- CFD for aerodynamics
+- GD&T per ASME Y14.5
+- DFM for 3D printing and CNC
+- Lightweight optimization
+- ROS2 and Python
+- Systems engineering, MATLAB, and machine learning","Aerospace/Robotics"
+AR-062,"Spacecraft Propulsion Mechanical Designer","ThrustVector Space","Redmond, WA","ThrustVector Space develops electric propulsion systems for satellites. We need a Mechanical Designer to model ion thruster components, propellant tanks, and feed system assemblies in SolidWorks and CATIA. FEA in ANSYS validates designs for launch vibration and thermal environments. Thermal analysis of thruster discharge chambers is critical. GD&T documents precision components. The role requires DFM for CNC and additive manufacturing of refractory metal parts, tolerance stack-up for thruster assembly alignment, and AS9100 documentation. Systems engineering coordinates propulsion mechanical design with electrical and test teams. Lightweight optimization minimizes propulsion system mass.","- BS in Mechanical or Aerospace Engineering
+- 3+ years propulsion or spacecraft hardware design
+- SolidWorks and/or CATIA
+- ANSYS FEA for vibration and thermal
+- Thermal analysis for high-temperature components
+- GD&T per ASME Y14.5
+- DFM for CNC and additive manufacturing
+- Tolerance stack-up for alignment
+- AS9100 documentation
+- Systems engineering and lightweight optimization","Aerospace/Robotics"
+AR-063,"Surgical Robotics Mechanical Engineer","PrecisionCut Medical Robotics","Boston, MA","PrecisionCut Medical Robotics develops robotic systems for minimally invasive surgery. We need a Mechanical Engineer to design compact actuator assemblies, instrument tips, and cable-driven mechanisms. SolidWorks is the primary CAD tool for miniature mechanism design. FEA in ANSYS validates designs under surgical loading conditions. GD&T is critical for tight-tolerance instrument components manufactured via CNC Swiss machining. Tolerance stack-up analysis ensures mechanism precision. The role requires DFM review for medical device manufacturing and 3D printing for prototyping. ROS2 and C++ interface with the control system. ISO 9001 and FDA design controls govern our processes.","- BS/MS in Mechanical or Biomedical Engineering
+- 3+ years surgical or medical robotics design
+- SolidWorks for miniature mechanism design
+- ANSYS FEA for surgical loading
+- GD&T for tight-tolerance instruments
+- Tolerance stack-up analysis
+- DFM for CNC Swiss machining
+- 3D printing for prototyping
+- ROS2 and C++ for control interface
+- ISO 9001 and FDA design controls","Aerospace/Robotics"
+AR-064,"Senior Stress Engineer - Aerospace","StructureForce Aerospace","Wichita, KS","StructureForce Aerospace provides stress analysis services to aircraft OEMs. We need a Senior Stress Engineer to perform detailed structural analysis of wing, fuselage, and empennage components. You will use ANSYS and Nastran for FEA, generate margins of safety, and produce formal stress reports per aerospace certification requirements. CATIA V5 and Creo are used by our clients for geometry. The role requires expertise in fatigue and damage tolerance, composite and metallic analysis, and GD&T interpretation. Technical writing is a daily activity. Lightweight optimization improves structural efficiency. Systems engineering coordinates analysis with the design team. AS9100 documentation is standard.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 8+ years stress analysis experience
+- ANSYS and MSC Nastran FEA
+- CATIA V5 and Creo for geometry
+- Fatigue and damage tolerance analysis
+- Composite and metallic analysis
+- GD&T interpretation
+- Lightweight optimization
+- Technical writing for stress reports
+- AS9100 and systems engineering","Aerospace/Robotics"
+AR-065,"Warehouse Robotics Engineer","LogiBot Solutions","Chicago, IL","LogiBot Solutions deploys mobile robot fleets in warehouse and distribution center environments. We need a Robotics Engineer to design custom attachments, charging stations, and navigation aids for our robot platforms. SolidWorks is used for mechanical design. You will integrate sensors and charging connectors, design for sheet metal and CNC fabrication (DFM), and apply GD&T for critical interfaces. ROS2 and Python are used for fleet management software. Machine learning optimizes route planning. PLC integration connects robots to warehouse management systems. Understanding of systems engineering for the full warehouse automation solution is important.","- BS in Mechanical or Robotics Engineering
+- 2+ years warehouse or mobile robotics
+- SolidWorks for mechanical design
+- DFM for sheet metal and CNC
+- GD&T per ASME Y14.5
+- ROS2 and Python for fleet software
+- Machine learning for route optimization
+- PLC integration for WMS connectivity
+- Sensor integration
+- Systems engineering for warehouse automation","Aerospace/Robotics"
+AR-066,"Nacelle Structures Engineer","AirFlow Structures","Wichita, KS","AirFlow Structures designs engine nacelle and thrust reverser structures for commercial aircraft. We need a Nacelle Structures Engineer to design inlet, fan cowl, and thrust reverser components in CATIA V5. FEA in ANSYS validates structures for flight loads, bird strike, and acoustic requirements. The role requires composite structures expertise (carbon fiber and honeycomb), GD&T documentation, and DFM for autoclave manufacturing. Fatigue analysis and damage tolerance drive inspection program development. Tolerance stack-up ensures nacelle-engine fit. AS9100 and systems engineering coordinate with engine and aircraft teams. AutoCAD is used for interface drawings. Technical writing is essential.","- BS in Aerospace or Mechanical Engineering
+- 4+ years nacelle or aerostructures design
+- CATIA V5 for nacelle components
+- ANSYS FEA for multi-load analysis
+- Composite structures (CFRP, honeycomb)
+- GD&T per ASME Y14.5
+- DFM for autoclave manufacturing
+- Fatigue and damage tolerance
+- Tolerance stack-up for engine fit
+- AS9100, systems engineering, and technical writing","Aerospace/Robotics"
+AR-067,"Medical Robotics Research Assistant","RoboMed Lab","Baltimore, MD","The RoboMed Lab at Johns Hopkins is seeking a Research Assistant for our surgical robotics program. This is an entry-level position ideal for recent ME or BME graduates interested in robotics research. You will assist with designing robot prototypes in SolidWorks, running FEA simulations in ANSYS, and programming robot behaviors in ROS2 using Python and C++. GD&T ensures manufactured prototypes meet design intent. 3D printing is used extensively for rapid prototyping. Machine learning for force estimation is an active research direction. MATLAB processes experimental data. Candidates with FE exam (EIT) certification or pursuing it are encouraged to apply.","- BS in Mechanical, Biomedical, or Robotics Engineering
+- Recent graduate welcome
+- SolidWorks proficiency
+- Basic FEA (coursework or project level)
+- ROS2 and Python programming
+- C++ basics
+- GD&T understanding
+- 3D printing experience
+- Machine learning awareness
+- FE exam (EIT) preferred and MATLAB skills","Aerospace/Robotics"
+AR-068,"Spacecraft Dynamics Analyst","OrbitalMech Systems","Houston, TX","OrbitalMech Systems performs orbital mechanics and spacecraft dynamics analysis. We need a Spacecraft Dynamics Analyst to model rigid body and flexible body dynamics for satellites during deployment, docking, and attitude maneuvers. MATLAB and Python are the primary tools for dynamics modeling. ANSYS provides FEA mode shapes for flexible body integration. CATIA V5 provides mass properties from CAD models. The role requires systems engineering to coordinate dynamics requirements across subsystems, vibration analysis for spacecraft qualification, and technical writing for formal analysis reports. AS9100 documentation is standard. GD&T knowledge helps interpret mechanism tolerances affecting dynamics. Fatigue analysis may be needed for deployment mechanisms.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 3+ years spacecraft dynamics or orbital mechanics
+- MATLAB and Python for dynamics modeling
+- ANSYS FEA for mode shapes
+- CATIA V5 for mass properties
+- Vibration analysis for qualification
+- Systems engineering for dynamics integration
+- Technical writing for analysis reports
+- AS9100 documentation
+- GD&T and fatigue analysis awareness","Aerospace/Robotics"
+AR-069,"Robot Perception Engineer","VisionBot AI","San Jose, CA","VisionBot AI develops perception systems for robotic manipulation. We need a Robot Perception Engineer to develop 3D vision algorithms for object detection, pose estimation, and grasp planning. Python and C++ are used within the ROS2 framework. Machine learning (PyTorch, TensorFlow) trains perception models. The role requires understanding of robot mechanical design (SolidWorks) for sensor mounting and workspace analysis. MATLAB prototypes signal processing algorithms. Systems engineering connects perception outputs to motion planning inputs. While primarily a software role, understanding of structural analysis constraints and GD&T for sensor bracket specifications is valuable.","- BS/MS in Robotics, Computer Science, or Mechanical Engineering
+- 3+ years robot perception or computer vision
+- Python and C++ proficiency
+- ROS2 framework experience
+- Machine learning (PyTorch/TensorFlow)
+- 3D vision and point cloud processing
+- SolidWorks familiarity for sensor integration
+- MATLAB for signal processing
+- Systems engineering for perception pipeline
+- GD&T awareness for sensor mounting","Aerospace/Robotics"
+AR-070,"Satellite Thermal Hardware Designer","ThermoSat Systems","Los Angeles, CA","ThermoSat Systems designs thermal control hardware for satellite programs. We need a Thermal Hardware Designer to create CAD models of heat pipes, cold plates, heaters, and thermal shields in CATIA. Thermal analysis in ANSYS validates designs for orbital thermal environments. FEA ensures structural survival during launch. You will generate GD&T drawings for manufacturing, review DFM for CNC and brazing operations, and manage tolerance stack-ups at thermal interface contacts. Lightweight optimization is always critical for spacecraft. Systems engineering coordinates with structures and power teams. AS9100 governs documentation. MATLAB and Python automate thermal calculations.","- BS in Mechanical or Aerospace Engineering
+- 3+ years thermal hardware design
+- CATIA for thermal hardware modeling
+- ANSYS for thermal and structural FEA
+- GD&T per ASME Y14.5
+- DFM for CNC and brazing
+- Tolerance stack-up for thermal interfaces
+- Lightweight optimization
+- Systems engineering for thermal integration
+- AS9100, MATLAB, and Python","Aerospace/Robotics"
+AR-071,"Control Surfaces Mechanisms Engineer","AeroHinge Systems","Seattle, WA","AeroHinge Systems designs control surface actuation systems for commercial and military aircraft. We need a Control Surfaces Mechanisms Engineer to design hinge assemblies, actuator mounts, and linkage mechanisms in CATIA V5. You will perform FEA in ANSYS for fatigue and limit load cases. MATLAB models mechanism kinematics and actuator dynamics. The role requires GD&T for precision hinge components, tolerance stack-up for mechanism backlash control, and hydraulic actuator design. DFM for CNC machined components is essential. Fatigue analysis and damage tolerance drive design choices. AS9100 documentation and systems engineering for control surface integration are core.","- BS in Mechanical or Aerospace Engineering
+- 4+ years flight control mechanism design
+- CATIA V5 for mechanism design
+- ANSYS FEA for fatigue and limit loads
+- MATLAB for kinematics and dynamics
+- GD&T per ASME Y14.5
+- Tolerance stack-up for backlash control
+- Hydraulic actuator design
+- DFM for CNC machining
+- Fatigue analysis, AS9100, and systems engineering","Aerospace/Robotics"
+AR-072,"Senior UAV Structural Engineer","HawkEye Unmanned","Palmdale, CA","HawkEye Unmanned designs large military UAVs. We need a Senior UAV Structural Engineer to lead structural analysis and design of primary airframe structures. CATIA V5 is the primary CAD tool. ANSYS and Nastran perform FEA for flight loads, fatigue, and damage tolerance. The role requires expertise in composite structures (CFRP skins, honeycomb core), metallic fittings, and hybrid construction. GD&T and tolerance stack-up analysis ensure manufacturing quality. Lightweight optimization drives structural efficiency. You will mentor junior engineers, coordinate with systems engineering on structural integration, and produce AS9100 stress reports. Python and MATLAB automate repetitive analysis. AutoCAD is used for interface drawings.","- BS in Aerospace or Mechanical Engineering (MS preferred)
+- 8+ years UAV or aircraft structures
+- CATIA V5 for airframe design
+- ANSYS and Nastran FEA
+- Composite structures expertise (CFRP, honeycomb)
+- GD&T and tolerance stack-up
+- Fatigue and damage tolerance
+- Lightweight optimization
+- AS9100 stress reports
+- AutoCAD, Python, MATLAB, and systems engineering","Aerospace/Robotics"
+AR-073,"Fuselage Structures Designer","AirCraft Assemblies","Wichita, KS","AirCraft Assemblies designs fuselage structural components for regional and business aircraft. We need a Fuselage Structures Designer to create detailed models of frames, stringers, skins, and doors in CATIA V5. You will generate production drawings with GD&T, coordinate FEA loads with the stress group, and apply DFM for sheet metal forming and composite layup. Tolerance stack-up analysis ensures assembly fit across large fuselage sections. The role requires fatigue awareness for inspection interval determination, structural hand calculations for quick sizing, and AS9100 documentation. Lightweight optimization reduces empty weight.","- BS in Aerospace or Mechanical Engineering
+- 3-5 years fuselage or aerostructures design
+- CATIA V5 proficiency
+- GD&T per ASME Y14.5
+- DFM for sheet metal and composites
+- Tolerance stack-up for fuselage assembly
+- Fatigue awareness for inspection planning
+- Structural hand calculations
+- AS9100 documentation
+- Lightweight optimization","Aerospace/Robotics"
+AR-074,"Autonomous Inspection Robotics Engineer","InspectBot Technologies","Houston, TX","InspectBot Technologies develops robots for inspecting pipelines, tanks, and industrial infrastructure. We need a Robotics Engineer to design locomotion mechanisms, sensor housings, and deployment systems. SolidWorks is the primary CAD tool. FEA in ANSYS validates designs for harsh environments. You will work with ROS2 and Python for robot control software, apply DFM for CNC and 3D printing, and document designs with GD&T. Thermal analysis ensures electronics survive temperature extremes. Machine learning processes inspection data. Systems engineering coordinates mechanical, electrical, and software design. Lightweight optimization extends deployment range.","- BS in Mechanical or Robotics Engineering
+- 3+ years inspection or field robotics
+- SolidWorks for mechanical design
+- ANSYS FEA for harsh environment loads
+- ROS2 and Python for robot control
+- DFM for CNC and 3D printing
+- GD&T per ASME Y14.5
+- Thermal analysis for electronics
+- Machine learning for inspection data
+- Systems engineering and lightweight optimization","Aerospace/Robotics"
+AR-075,"Aerospace Structural Repair Engineer","RepairTech Aerospace","Tulsa, OK","RepairTech Aerospace performs structural repairs and modifications on military and commercial aircraft. We need a Structural Repair Engineer to analyze damage, design repair schemes, and produce engineering drawings. You will use SolidWorks and CATIA for repair design modeling. FEA in ANSYS validates repair structural integrity. The role requires deep knowledge of composite repair techniques (bonded patches, scarf repairs), metallic repair (doubler design), and GD&T for repair drawing documentation. Fatigue analysis ensures repairs meet design service life requirements. DFM for field repair installation is critical. AS9100 and MIL-HDBK documentation standards apply. Structural analysis hand calculations are used daily. Technical writing produces formal repair engineering orders.","- BS in Aerospace or Mechanical Engineering
+- 4+ years structural repair or MRO experience
+- SolidWorks and/or CATIA for repair modeling
+- ANSYS FEA for repair validation
+- Composite repair techniques (bonded, scarf)
+- Metallic repair and doubler design
+- GD&T per ASME Y14.5
+- Fatigue analysis for repair life
+- DFM for field installation
+- AS9100 documentation and technical writing","Aerospace/Robotics"

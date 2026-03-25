@@ -1,0 +1,103 @@
+{
+  "learning_paths": [
+    {
+      "skill": "Python",
+      "codecademy_course": "Learn Python 3",
+      "url": "https://www.codecademy.com/learn/learn-python-3",
+      "estimated_hours": 25,
+      "relevance": "Core language for FEA data processing, predictive maintenance, and automation scripts"
+    },
+    {
+      "skill": "SQL",
+      "codecademy_course": "Learn SQL",
+      "url": "https://www.codecademy.com/learn/learn-sql",
+      "estimated_hours": 8,
+      "relevance": "Query manufacturing databases, production records, and quality data"
+    },
+    {
+      "skill": "Machine Learning",
+      "codecademy_course": "Machine Learning / AI Engineering",
+      "url": "https://www.codecademy.com/learn/machine-learning",
+      "estimated_hours": 20,
+      "relevance": "Predictive maintenance, defect detection, and sensor data analysis"
+    },
+    {
+      "skill": "C++",
+      "codecademy_course": "Learn C++",
+      "url": "https://www.codecademy.com/learn/learn-c-plus-plus",
+      "estimated_hours": 20,
+      "relevance": "Arduino/robotics control systems, embedded firmware, and ROS nodes"
+    },
+    {
+      "skill": "Statistical Process Control",
+      "codecademy_course": "Learn Statistics with Python",
+      "url": "https://www.codecademy.com/learn/learn-statistics-with-python",
+      "estimated_hours": 10,
+      "relevance": "SPC charts, process capability analysis, and quality metrics"
+    },
+    {
+      "skill": "ERP Systems",
+      "codecademy_course": "Learn SQL",
+      "url": "https://www.codecademy.com/learn/learn-sql",
+      "estimated_hours": 8,
+      "relevance": "SQL is the foundation for querying SAP and other ERP databases"
+    },
+    {
+      "skill": "ROS",
+      "codecademy_course": "Learn C++",
+      "url": "https://www.codecademy.com/learn/learn-c-plus-plus",
+      "estimated_hours": 20,
+      "relevance": "C++ is essential for writing ROS2 nodes and robot control packages"
+    },
+    {
+      "skill": "Predictive Maintenance",
+      "codecademy_course": "Learn Data Analysis with Pandas",
+      "url": "https://www.codecademy.com/learn/data-processing-pandas",
+      "estimated_hours": 10,
+      "relevance": "Pandas for processing vibration sensor data and building maintenance models"
+    },
+    {
+      "skill": "CAN Bus",
+      "codecademy_course": "Learn Python 3",
+      "url": "https://www.codecademy.com/learn/learn-python-3",
+      "estimated_hours": 25,
+      "relevance": "Python for parsing CAN bus frames and building diagnostic tools"
+    },
+    {
+      "skill": "Battery Management Systems",
+      "codecademy_course": "Learn Python 3",
+      "url": "https://www.codecademy.com/learn/learn-python-3",
+      "estimated_hours": 25,
+      "relevance": "Python for BMS data logging, SOC estimation, and thermal modeling"
+    },
+    {
+      "skill": "Finite Element Analysis",
+      "codecademy_course": "Learn Python 3",
+      "url": "https://www.codecademy.com/learn/learn-python-3",
+      "estimated_hours": 25,
+      "relevance": "Python for FEA pre/post-processing, mesh scripting, and results automation"
+    },
+    {
+      "skill": "MATLAB",
+      "codecademy_course": "Learn Python 3",
+      "url": "https://www.codecademy.com/learn/learn-python-3",
+      "estimated_hours": 25,
+      "relevance": "Python is the open-source alternative to MATLAB for engineering analysis"
+    },
+    {
+      "skill": "Lean Manufacturing",
+      "codecademy_course": "Learn Data Analysis with Pandas",
+      "url": "https://www.codecademy.com/learn/data-processing-pandas",
+      "estimated_hours": 10,
+      "relevance": "Data analysis skills for lean metrics, OEE tracking, and waste identification"
+    },
+    {
+      "skill": "Project Management",
+      "codecademy_course": "Learn Agile",
+      "url": "https://www.codecademy.com/learn/learn-agile",
+      "estimated_hours": 5,
+      "relevance": "Agile/Scrum methodology increasingly used in engineering product development"
+    }
+  ],
+  "unmapped_note": "No Codecademy course available — consider vendor training or professional certification program"
+}

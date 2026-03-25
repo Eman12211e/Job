@@ -20,6 +20,7 @@ from ui.tab_resume import render_resume_tab
 from ui.tab_gap import render_gap_tab
 from ui.tab_projects import render_projects_tab
 from ui.tab_learning import render_learning_tab
+from ui.tab_audit import render_audit_tab
 from export.pdf_export import generate_pdf
 
 
@@ -111,9 +112,10 @@ col3.metric("Top Skill", top_skill)
 st.markdown("---")
 
 # ── Tabs ───────────────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
+tab1, tab2, tab_audit, tab3, tab4, tab5 = st.tabs([
     "Keyword Rankings",
     "Resume Bullets",
+    "Career Audit",
     "Skills Gap",
     "Projects",
     "Learning Paths",
@@ -126,6 +128,9 @@ with tab1:
 
 with tab2:
     render_resume_tab(ranked_df, user_config, skills_data)
+
+with tab_audit:
+    render_audit_tab(ranked_df, patterns, user_config)
 
 with tab3:
     render_gap_tab(ranked_df, patterns, top_n=top_n)
