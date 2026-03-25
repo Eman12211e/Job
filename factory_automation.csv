@@ -1,0 +1,751 @@
+job_id,title,company,location,description,requirements,industry
+FA-001,"Senior Manufacturing Engineer","Apex Manufacturing Solutions","Cincinnati, OH","We are looking for a Senior Manufacturing Engineer to lead process improvement initiatives across our high-volume production facility. You will own the end-to-end manufacturing process for precision machined components, from raw material receipt through final inspection. This role requires deep expertise in CNC machining operations, lean manufacturing principles, and statistical process control. You will work closely with quality and design engineering to implement DFM feedback loops and drive continuous improvement using Lean Six Sigma methodology. Our facility runs 24/7 with over 40 CNC machines and 6 robotic welding cells. The ideal candidate has a strong foundation in GD&T, fixture design, and root cause analysis. You will mentor junior engineers and interface with suppliers on tooling and raw material specifications.","- BS in Mechanical or Manufacturing Engineering
+- 7+ years manufacturing engineering experience
+- Expert in CNC machining and G-code programming
+- SolidWorks proficiency required (CSWP preferred)
+- Strong knowledge of GD&T per ASME Y14.5
+- Lean Six Sigma Green Belt or Black Belt certification
+- Experience with SPC and control charts
+- Proficient in root cause analysis (8D, fishbone)
+- Familiarity with ISO 9001 quality management systems
+- PLC troubleshooting experience (Allen-Bradley preferred)","Factory Automation"
+FA-002,"Automation Engineer","TechLine Industries","Milwaukee, WI","TechLine Industries is seeking an Automation Engineer to design, program, and commission automated manufacturing systems for our automotive parts division. You will develop PLC programs for new production lines, integrate industrial robotics (FANUC and ABB), and optimize existing automation for improved cycle time and reliability. The role involves working with pneumatic and hydraulic actuators, vision systems, and safety PLCs. You will collaborate with mechanical designers using SolidWorks to create cell layouts and ensure all systems meet OSHA and ANSI safety requirements. We value engineers who can troubleshoot on the factory floor and drive predictive maintenance strategies to minimize unplanned downtime.","- BS in Mechanical, Electrical, or Mechatronics Engineering
+- 3+ years experience in industrial automation
+- PLC programming required (Allen-Bradley ControlLogix/CompactLogix)
+- Experience with FANUC or ABB robot programming
+- Knowledge of pneumatics and hydraulics
+- SolidWorks for cell layout and fixture design
+- Understanding of lean manufacturing and 5S
+- Familiarity with predictive maintenance concepts
+- GD&T knowledge for tolerance verification
+- Strong troubleshooting and root cause analysis skills","Factory Automation"
+FA-003,"Process Engineer","Precision Automation Corp","Grand Rapids, MI","Precision Automation Corp is hiring a Process Engineer to optimize our injection molding and CNC machining operations. You will analyze production data using statistical process control methods, identify bottlenecks, and implement process improvements that reduce scrap and increase throughput. This position requires hands-on experience with mold design, CNC setup, and lean manufacturing tools including value stream mapping and kaizen events. You will document standard work procedures and train operators on new processes. Proficiency in SolidWorks for fixture and tooling design is essential. The role also involves working with our ERP system (SAP) to track production metrics and manage work orders.","- BS in Mechanical or Industrial Engineering
+- 3-5 years process engineering in manufacturing
+- Experience with injection molding and CNC machining
+- SolidWorks proficiency for tooling design
+- Knowledge of lean manufacturing (VSM, kaizen, 5S)
+- SPC and statistical analysis skills
+- Familiarity with ERP systems (SAP preferred)
+- Understanding of GD&T
+- Root cause analysis experience (5 Whys, fishbone)
+- Six Sigma Green Belt preferred","Factory Automation"
+FA-004,"Controls Engineer","NorthStar Factory Systems","Indianapolis, IN","NorthStar Factory Systems needs a Controls Engineer to design and implement PLC-based control systems for custom automated assembly lines. You will write ladder logic, structured text, and function block programs for Allen-Bradley and Siemens PLCs. The role includes HMI development, motion control programming, and integration of industrial robots into manufacturing cells. You must be comfortable working with electrical schematics, pneumatic circuits, and sensor networks. Our systems serve automotive, medical device, and consumer goods manufacturers. Knowledge of predictive maintenance, vibration analysis, and condition monitoring is a strong plus.","- BS in Electrical, Mechanical, or Mechatronics Engineering
+- 4+ years PLC programming experience
+- Allen-Bradley and/or Siemens PLC platforms
+- Ladder logic, structured text, function block programming
+- Experience with HMI/SCADA development
+- Industrial robotics integration (FANUC, ABB, or KUKA)
+- Pneumatics and hydraulics knowledge
+- Ability to read electrical schematics
+- Understanding of lean manufacturing principles
+- Predictive maintenance and condition monitoring experience preferred","Factory Automation"
+FA-005,"Quality Engineer","ProMach Engineering","Cleveland, OH","ProMach Engineering is seeking a Quality Engineer to lead inspection, audit, and corrective action processes in our precision machining facility. You will manage our ISO 9001 quality management system, conduct internal audits, and drive continuous improvement through DFMEA reviews, SPC implementation, and root cause analysis. This role requires strong knowledge of GD&T for interpreting engineering drawings and verifying CNC machined part dimensions using CMM equipment. You will interface with customers on quality issues and lead 8D corrective action responses. Experience with Lean Six Sigma methodology is highly valued for process capability improvement projects.","- BS in Mechanical or Industrial Engineering
+- 3+ years quality engineering in manufacturing
+- ISO 9001 QMS management experience
+- Expert in GD&T and CMM inspection
+- DFMEA and PFMEA facilitation
+- Root cause analysis (8D methodology)
+- SPC and process capability analysis (Cpk/Ppk)
+- Lean Six Sigma Green Belt certification preferred
+- SolidWorks for drawing review
+- ERP system experience for quality tracking","Factory Automation"
+FA-006,"CNC Programmer","Heartland Machining","Dayton, OH","Heartland Machining is looking for an experienced CNC Programmer to develop programs for our fleet of 3-axis and 5-axis CNC milling and turning centers. You will create efficient toolpaths using Mastercam, optimize feeds and speeds for various materials (aluminum, steel, titanium), and set up first-article runs. The role requires reading and interpreting engineering drawings with GD&T callouts, selecting appropriate tooling, and working with the quality team on SPC data collection for critical dimensions. You will also support fixture design in SolidWorks and coordinate with the engineering team on DFM feedback for new part designs.","- 5+ years CNC programming experience (milling and turning)
+- Proficiency in Mastercam or equivalent CAM software
+- Strong knowledge of G-code and M-code
+- GD&T interpretation per ASME Y14.5
+- SolidWorks for fixture and tooling design
+- SPC data collection and analysis
+- DFM/DFA feedback capability
+- Experience with aluminum, steel, and titanium machining
+- Lean manufacturing awareness (setup reduction, 5S)
+- ISO 9001 environment experience","Factory Automation"
+FA-007,"Industrial Engineer","Summit Production Group","Charlotte, NC","Summit Production Group is hiring an Industrial Engineer to improve production efficiency across our multi-line consumer goods manufacturing facility. You will conduct time studies, develop facility layouts using AutoCAD, and implement lean manufacturing initiatives including 5S, standard work, and visual management. The role involves analyzing production data in our ERP system, building capacity models, and leading kaizen events. You will work with automation engineers on PLC-controlled line improvements and coordinate with quality on SPC implementation. Python scripting skills for data analysis are a strong plus.","- BS in Industrial or Mechanical Engineering
+- 2-4 years industrial engineering experience
+- AutoCAD for facility layout and floor planning
+- Lean manufacturing tools (5S, VSM, kaizen, standard work)
+- Time study and work measurement expertise
+- ERP system proficiency (SAP or Oracle)
+- PLC systems awareness for line troubleshooting
+- SPC and process improvement methodology
+- Python or Excel VBA for data analysis preferred
+- Project management skills","Factory Automation"
+FA-008,"Maintenance Engineer","Automated Assembly Inc","Pittsburgh, PA","Automated Assembly Inc is seeking a Maintenance Engineer to lead our preventive and predictive maintenance programs across a facility with 200+ pieces of automated equipment. You will implement vibration analysis, thermal imaging, and oil analysis programs to predict equipment failures before they occur. The role includes PLC troubleshooting for Allen-Bradley and Siemens controllers, hydraulic and pneumatic system repair, and coordination with OEMs on spare parts management. You must be comfortable with electrical systems, motor drives, and conveyor systems. Experience with CMMS software and lean manufacturing TPM (Total Productive Maintenance) methodology is required.","- BS in Mechanical or Electrical Engineering (or equivalent experience)
+- 5+ years maintenance engineering in manufacturing
+- PLC troubleshooting (Allen-Bradley, Siemens)
+- Predictive maintenance (vibration analysis, thermography)
+- Hydraulic and pneumatic system repair
+- Electrical systems and motor drive knowledge
+- CMMS software experience
+- Lean manufacturing TPM methodology
+- Root cause analysis for equipment failures
+- Familiarity with ISO 9001 requirements","Factory Automation"
+FA-009,"Robotics Integration Engineer","AutoBot Systems","Greenville, SC","AutoBot Systems designs and builds turnkey robotic automation solutions for manufacturers nationwide. We are hiring a Robotics Integration Engineer to program and commission FANUC and ABB industrial robots for welding, material handling, and assembly applications. You will design end-of-arm tooling in SolidWorks, write PLC programs for cell control, and develop robot motion paths that optimize cycle time. The position requires travel to customer sites for installation and commissioning. Knowledge of safety systems, pneumatics, and lean manufacturing cell layout principles is essential.","- BS in Mechanical, Electrical, or Robotics Engineering
+- 3+ years industrial robot programming (FANUC or ABB)
+- PLC programming (Allen-Bradley preferred)
+- SolidWorks for EOAT and fixture design
+- Pneumatic system design and troubleshooting
+- Safety PLC and risk assessment knowledge
+- GD&T for part verification
+- Lean manufacturing cell layout principles
+- Willingness to travel 30-40%
+- Strong mechanical troubleshooting skills","Factory Automation"
+FA-010,"Lean Manufacturing Engineer","Kaizen Works Manufacturing","Kansas City, MO","Kaizen Works Manufacturing is looking for a Lean Manufacturing Engineer to drive waste elimination and continuous improvement across our 3 production facilities. You will lead kaizen events, implement 5S programs, develop value stream maps, and coach production teams on lean principles. This role requires strong data analysis skills — you will use SPC, OEE tracking, and our ERP system to measure improvement impact. Six Sigma Green Belt certification is required. You will also support automation projects involving PLC-controlled systems and work with engineering on DFM reviews for new product introductions.","- BS in Industrial or Mechanical Engineering
+- 3-5 years lean manufacturing experience
+- Lean Six Sigma Green Belt certification required
+- Kaizen facilitation and value stream mapping
+- 5S implementation and audit experience
+- SPC and OEE analysis
+- ERP system proficiency
+- PLC systems awareness
+- DFM/DFA review capability
+- Strong presentation and coaching skills","Factory Automation"
+FA-011,"Tooling Engineer","Midwest Tooling Solutions","Toledo, OH","Midwest Tooling Solutions is hiring a Tooling Engineer to design progressive dies, stamping tools, and assembly fixtures for automotive sheet metal components. You will use SolidWorks for 3D tool design, create fully dimensioned drawings with GD&T callouts, and work with our in-house tool room on build and tryout. The role requires understanding of sheet metal forming, CNC machining for tool components, and lean manufacturing principles for setup time reduction. You will conduct tolerance stack-up analysis to ensure assembled components meet customer specifications and support DFMEA reviews.","- BS in Mechanical or Manufacturing Engineering
+- 4+ years tooling or die design experience
+- SolidWorks proficiency required
+- Sheet metal forming and stamping knowledge
+- GD&T per ASME Y14.5
+- Tolerance stack-up analysis
+- CNC machining awareness for tool builds
+- DFM/DFA and DFMEA participation
+- Lean manufacturing (SMED, setup reduction)
+- AutoCAD for legacy drawing updates","Factory Automation"
+FA-012,"Plant Engineer","Consolidated Manufacturing","Birmingham, AL","Consolidated Manufacturing is seeking a Plant Engineer to manage facility infrastructure, utilities, and capital equipment projects at our 400,000 sq ft production plant. You will oversee HVAC, compressed air, electrical distribution, and water treatment systems. The role includes managing equipment installations, coordinating with contractors, and ensuring compliance with OSHA, EPA, and ISO 9001 requirements. You will use AutoCAD for facility layouts and coordinate with production on lean manufacturing initiatives to optimize material flow. PLC knowledge is needed for troubleshooting building automation systems.","- BS in Mechanical or Industrial Engineering
+- 5+ years plant/facilities engineering experience
+- AutoCAD for facility layout and equipment placement
+- HVAC, compressed air, and utility system knowledge
+- Project management for capital equipment installations
+- OSHA and EPA compliance
+- ISO 9001 awareness
+- PLC troubleshooting for building automation
+- Lean manufacturing material flow optimization
+- Budget management and vendor coordination","Factory Automation"
+FA-013,"Packaging Engineer","SmartPack Automation","Memphis, TN","SmartPack Automation designs automated packaging lines for food, beverage, and consumer products companies. We need a Packaging Engineer to design packaging systems, specify machinery, and optimize line performance. You will create packaging layouts in SolidWorks and AutoCAD, program PLC-controlled sequences for case erecting, filling, and palletizing, and integrate FANUC robots for end-of-line operations. Lean manufacturing principles guide our approach to minimizing changeover time and maximizing throughput. Experience with SQL databases for production tracking and reporting is valuable.","- BS in Mechanical or Packaging Engineering
+- 3+ years packaging line experience
+- SolidWorks and AutoCAD for system layout
+- PLC programming for packaging sequences
+- FANUC robot integration experience
+- Lean manufacturing (changeover reduction)
+- SQL for production data queries
+- Understanding of food safety and sanitary design
+- GD&T for component specifications
+- Project management skills","Factory Automation"
+FA-014,"Production Engineer","Valley Forge Manufacturing","Rochester, NY","Valley Forge Manufacturing is hiring a Production Engineer to support day-to-day operations in our CNC machining and assembly departments. You will troubleshoot production issues, optimize machine settings, and implement process improvements that reduce scrap and improve OEE. The role requires hands-on experience with CNC lathes and mills, knowledge of lean manufacturing tools, and ability to analyze SPC data for critical quality characteristics. You will work with our SolidWorks-based engineering team on fixture modifications and DFM reviews for incoming orders.","- BS in Mechanical or Manufacturing Engineering
+- 2-3 years production engineering experience
+- CNC machining knowledge (setup, feeds/speeds, tooling)
+- SolidWorks for fixture modifications
+- Lean manufacturing tools (5S, standard work)
+- SPC analysis and interpretation
+- DFM/DFA awareness
+- Root cause analysis skills
+- ERP system navigation
+- GD&T interpretation","Factory Automation"
+FA-015,"Continuous Improvement Engineer","EliteOps Manufacturing","Minneapolis, MN","EliteOps Manufacturing is seeking a Continuous Improvement Engineer to lead Lean Six Sigma projects across our stamping, welding, and assembly operations. You will use DMAIC methodology to reduce defects, improve cycle time, and lower manufacturing costs. The role involves SPC analysis, DFMEA facilitation, and coaching production teams on lean manufacturing tools including 5S, kanban, and standard work. You will present project results to leadership with clear before/after metrics. SQL skills for pulling data from our MES and ERP systems are required.","- BS in Industrial or Mechanical Engineering
+- Lean Six Sigma Green Belt certification required (Black Belt preferred)
+- 3-5 years continuous improvement experience
+- SPC and process capability analysis
+- DFMEA facilitation experience
+- Lean manufacturing tools (5S, kanban, VSM)
+- SQL for data extraction from MES/ERP
+- Strong presentation and coaching skills
+- Root cause analysis (8D, fishbone, 5 Whys)
+- Project management methodology","Factory Automation"
+FA-016,"Equipment Engineer","NovaTech Fabrication","St. Louis, MO","NovaTech Fabrication is looking for an Equipment Engineer to specify, install, and validate new manufacturing equipment for our expanding sheet metal fabrication facility. You will manage the full equipment lifecycle from vendor selection through qualification, working with PLC programmers and controls engineers on automation integration. SolidWorks is used for equipment layout and interface design. The role requires knowledge of hydraulic press brakes, laser cutters, CNC punch presses, and robotic welding systems. You will develop preventive maintenance plans and support predictive maintenance initiatives using vibration analysis.","- BS in Mechanical Engineering
+- 4+ years equipment engineering in manufacturing
+- Sheet metal fabrication equipment knowledge
+- SolidWorks for equipment layout
+- PLC systems awareness
+- Hydraulic and pneumatic system understanding
+- Preventive and predictive maintenance planning
+- Vibration analysis for condition monitoring
+- Industrial robotics familiarity
+- ISO 9001 qualification protocols","Factory Automation"
+FA-017,"Test Engineer - Manufacturing","QualityFirst Systems","Cincinnati, OH","QualityFirst Systems manufactures automated test equipment for automotive and electronics clients. We need a Test Engineer to design and build functional test fixtures, program PLC-based test sequences, and develop data acquisition systems. You will use SolidWorks for test fixture design, write PLC programs for automated test cycles, and build SQL databases for test result storage and trending. GD&T knowledge is required for verifying part dimensions against specifications. The role includes SPC analysis of test data and root cause investigation of test failures.","- BS in Mechanical or Electrical Engineering
+- 3+ years test engineering in manufacturing
+- PLC programming for test automation
+- SolidWorks for test fixture design
+- SQL for test data management
+- GD&T and dimensional inspection
+- SPC for test data analysis
+- Root cause analysis of test failures
+- LabVIEW or Python for data acquisition
+- ISO 9001 test procedure documentation","Factory Automation"
+FA-018,"Supply Chain Engineer","Integrated Manufacturing Partners","Grand Rapids, MI","Integrated Manufacturing Partners is hiring a Supply Chain Engineer to optimize our supplier network and improve material flow from receiving through production. You will work with ERP systems (SAP) to manage inventory, conduct supplier quality audits per ISO 9001, and implement lean manufacturing pull systems and kanban. The role requires understanding of manufacturing processes including CNC machining, sheet metal, and injection molding to effectively evaluate supplier capabilities. SPC data analysis is needed for incoming material quality trending.","- BS in Industrial or Mechanical Engineering
+- 3+ years supply chain or manufacturing engineering
+- ERP system expertise (SAP preferred)
+- ISO 9001 supplier audit experience
+- Lean manufacturing (kanban, pull systems)
+- Understanding of CNC, sheet metal, and injection molding
+- SPC for incoming quality analysis
+- Root cause analysis for supplier quality issues
+- Strong negotiation and communication skills
+- Project management experience","Factory Automation"
+FA-019,"Fixture Design Engineer","PrecisionBuild Engineering","Dayton, OH","PrecisionBuild Engineering designs custom manufacturing fixtures and workholding solutions for aerospace and automotive clients. We need a Fixture Design Engineer to create complex fixture assemblies in SolidWorks with full GD&T documentation. You will perform tolerance stack-up analysis, FEA for fixture stiffness validation, and DFM reviews. The role requires understanding of CNC machining, sheet metal fabrication, and welded construction methods. You will work with PLC-controlled automated fixtures and coordinate with our build shop on fabrication.","- BS in Mechanical Engineering
+- 3-5 years fixture design experience
+- SolidWorks expert (CSWP certification preferred)
+- GD&T per ASME Y14.5
+- Tolerance stack-up analysis
+- FEA for structural validation (ANSYS or SolidWorks Simulation)
+- DFM/DFA principles
+- CNC machining and sheet metal knowledge
+- PLC-controlled fixture experience
+- AutoCAD for legacy drawing support","Factory Automation"
+FA-020,"Reliability Engineer","Titan Manufacturing","Greenville, SC","Titan Manufacturing is seeking a Reliability Engineer to improve equipment uptime and reduce unplanned downtime across our 500,000 sq ft production facility. You will lead FMEA reviews on critical equipment, implement predictive maintenance programs using vibration analysis and thermal imaging, and analyze failure data to identify chronic equipment issues. The role requires PLC troubleshooting skills, understanding of hydraulic and pneumatic systems, and lean manufacturing TPM experience. You will build reliability metrics dashboards using Python and SQL.","- BS in Mechanical or Reliability Engineering
+- 4+ years reliability engineering in manufacturing
+- FMEA facilitation for equipment systems
+- Predictive maintenance (vibration, thermography, oil analysis)
+- PLC troubleshooting (Allen-Bradley, Siemens)
+- Hydraulics and pneumatics knowledge
+- Python for data analysis and dashboard building
+- SQL for failure data queries
+- Lean manufacturing TPM methodology
+- Root cause analysis (8D, fault tree analysis)","Factory Automation"
+FA-021,"Operations Engineer","Allied Production Systems","Indianapolis, IN","Allied Production Systems is looking for an Operations Engineer to support daily manufacturing operations across stamping, machining, and assembly departments. You will troubleshoot production issues in real-time, interface with PLC-controlled equipment, and drive lean manufacturing improvements. The role requires strong GD&T knowledge for part verification, SPC analysis for process monitoring, and experience with SolidWorks for fixture and tooling modifications. You will track KPIs in our ERP system and lead daily production meetings.","- BS in Mechanical or Industrial Engineering
+- 2-4 years operations or manufacturing engineering
+- PLC troubleshooting experience
+- SolidWorks for fixture modifications
+- GD&T interpretation
+- SPC and process monitoring
+- ERP system (SAP or Oracle)
+- Lean manufacturing tools (5S, standard work)
+- Root cause analysis
+- Strong communication for production floor leadership","Factory Automation"
+FA-022,"Senior Automation Engineer","Vanguard Automation","Milwaukee, WI","Vanguard Automation designs turnkey automated manufacturing cells for Tier 1 automotive suppliers. We need a Senior Automation Engineer to lead projects from concept through commissioning. You will program Allen-Bradley PLCs, integrate FANUC robots, design pneumatic circuits, and develop HMI interfaces. SolidWorks is used for mechanical design of custom tooling and cell layouts. The role requires deep knowledge of industrial robotics, safety systems, and lean manufacturing cell design. You will mentor junior engineers and manage project timelines.","- BS in Mechanical, Electrical, or Mechatronics Engineering
+- 7+ years automation engineering experience
+- Expert PLC programming (Allen-Bradley ControlLogix)
+- FANUC robot programming and integration
+- SolidWorks for mechanical design
+- Pneumatic and hydraulic circuit design
+- Safety PLC and risk assessment
+- GD&T for part and fixture verification
+- Lean manufacturing cell layout
+- Project management and team leadership","Factory Automation"
+FA-023,"Junior Manufacturing Engineer","FirstStep Manufacturing","Cleveland, OH","FirstStep Manufacturing is seeking a Junior Manufacturing Engineer to support our machining and assembly operations. This is an entry-level position ideal for recent mechanical engineering graduates who want hands-on manufacturing experience. You will assist senior engineers with process documentation, SPC data collection, and lean manufacturing 5S initiatives. Training will be provided on our CNC machines, PLC-controlled assembly systems, and SolidWorks for fixture design. The role offers exposure to GD&T, DFM reviews, and root cause analysis methodology. We value curiosity and a willingness to learn on the factory floor.","- BS in Mechanical or Manufacturing Engineering (recent graduates welcome)
+- Internship or co-op in manufacturing preferred
+- Basic SolidWorks skills
+- Interest in CNC machining and manufacturing processes
+- Willingness to learn PLC systems
+- Basic understanding of GD&T
+- Familiarity with lean manufacturing concepts
+- Strong problem-solving aptitude
+- Excel proficiency for data analysis
+- FE exam (EIT) preferred","Factory Automation"
+FA-024,"Manufacturing Engineering Intern","CoreTech Industries","Pittsburgh, PA","CoreTech Industries is offering a Manufacturing Engineering Internship for current ME students. You will gain hands-on experience in CNC machining, PLC-controlled systems, and lean manufacturing. Projects include supporting 5S audits, collecting SPC data, creating SolidWorks fixture drawings, and assisting with kaizen events. This is a paid internship with potential for full-time conversion. You will learn GD&T interpretation, root cause analysis basics, and how to use our ERP system for production tracking.","- Currently pursuing BS in Mechanical or Manufacturing Engineering
+- Completed sophomore year or higher
+- Basic SolidWorks knowledge
+- Interest in manufacturing and automation
+- Excel skills for data collection
+- Desire to learn lean manufacturing principles
+- Strong work ethic and curiosity
+- Ability to work on factory floor
+- Basic understanding of engineering drawings
+- FE exam preparation is a plus","Factory Automation"
+FA-025,"Senior Quality Manager","Benchmark Precision","Cincinnati, OH","Benchmark Precision is seeking a Senior Quality Manager to lead our quality department and maintain our ISO 9001 certification. You will manage a team of quality engineers and inspectors, oversee the DFMEA process, and drive Lean Six Sigma improvement projects. The role requires deep expertise in SPC, root cause analysis (8D), and customer corrective action responses. You will interface with automotive OEMs on quality requirements and manage our CMM inspection program. GD&T expertise is critical for this role. SQL skills for quality data analysis and trending are expected.","- BS in Mechanical or Industrial Engineering
+- 10+ years quality experience in manufacturing
+- ISO 9001 lead auditor certification
+- Lean Six Sigma Black Belt preferred
+- Expert in GD&T and CMM inspection
+- SPC and process capability mastery
+- DFMEA and PFMEA leadership
+- Root cause analysis (8D) expertise
+- SQL for quality data analysis
+- ERP system management experience","Factory Automation"
+FA-026,"Welding Engineer","SteelCraft Automation","Charlotte, NC","SteelCraft Automation is hiring a Welding Engineer to optimize our robotic and manual welding processes for structural steel fabrication. You will program welding robots (FANUC), develop WPS and PQR documents, and troubleshoot weld quality issues. SolidWorks is used for weld fixture design, and AutoCAD for shop floor layouts. The role requires understanding of CNC plasma and laser cutting operations. Lean manufacturing principles guide our approach to setup reduction and flow optimization. SPC is used to monitor critical weld dimensions.","- BS in Mechanical or Welding Engineering
+- 3+ years welding engineering experience
+- FANUC robot welding programming
+- SolidWorks for fixture design
+- AutoCAD for layout drawings
+- GD&T for weld joint specifications
+- SPC for weld quality monitoring
+- CNC plasma/laser cutting knowledge
+- Lean manufacturing (setup reduction)
+- AWS certified welder or welding inspector preferred","Factory Automation"
+FA-027,"PLC Programmer","ControlSys Engineering","Grand Rapids, MI","ControlSys Engineering is seeking a PLC Programmer to develop control systems for automated food and beverage production lines. You will write PLC programs for Allen-Bradley platforms, develop HMI screens, and integrate servo drives and VFDs. The role includes commissioning at customer sites and providing remote support. Knowledge of sanitary design principles, pneumatic systems, and industrial robotics is important. You will document control system architectures and train customer maintenance teams on PLC troubleshooting.","- BS in Electrical or Mechatronics Engineering
+- 3+ years PLC programming experience
+- Allen-Bradley ControlLogix/CompactLogix
+- HMI development (FactoryTalk, Ignition)
+- Servo drive and VFD configuration
+- Pneumatic system integration
+- Industrial robotics awareness
+- Lean manufacturing line design
+- Technical documentation skills
+- Travel 20-30% for commissioning","Factory Automation"
+FA-028,"Applications Engineer","FlexiMold Technologies","Rochester, NY","FlexiMold Technologies manufactures injection molds and provides turnkey molding solutions. We need an Applications Engineer to support customers on mold design, material selection, and process optimization. You will use SolidWorks for mold design and Moldflow for filling analysis. The role requires understanding of injection molding process parameters, DFM principles, and GD&T for part specifications. You will troubleshoot molding defects, conduct root cause analysis, and support lean manufacturing initiatives in our mold shop. Knowledge of CNC machining for mold components is important.","- BS in Mechanical or Plastics Engineering
+- 3+ years injection molding experience
+- SolidWorks for mold design
+- Moldflow or similar simulation software
+- DFM/DFA for injection molded parts
+- GD&T interpretation
+- CNC machining awareness for mold components
+- Root cause analysis for molding defects
+- Lean manufacturing principles
+- Customer-facing communication skills","Factory Automation"
+FA-029,"Electrical Design Engineer","PowerGrid Automation","Indianapolis, IN","PowerGrid Automation designs and builds electrical control panels for industrial automation systems. We need an Electrical Design Engineer to create panel layouts, generate schematics, and specify components for PLC-based control systems. You will use AutoCAD Electrical for schematic design and SolidWorks for 3D panel layout. The role involves selecting Allen-Bradley and Siemens PLC hardware, specifying safety relays, and coordinating with our panel shop on builds. Understanding of hydraulic and pneumatic valve manifold wiring and lean manufacturing principles for panel assembly is required.","- BS in Electrical or Mechatronics Engineering
+- 3+ years electrical design for automation
+- AutoCAD Electrical for schematics
+- SolidWorks for 3D panel layout
+- Allen-Bradley and Siemens PLC hardware selection
+- Pneumatic and hydraulic valve wiring
+- Safety system design (safety PLCs, relays)
+- UL 508A panel standards
+- Lean manufacturing for panel assembly
+- Technical documentation skills","Factory Automation"
+FA-030,"Senior Process Engineer","Catalyst Manufacturing","Kansas City, MO","Catalyst Manufacturing is looking for a Senior Process Engineer to own critical manufacturing processes in our high-volume metal stamping and assembly facility. You will lead process development for new product introductions, conduct DFMEA reviews, and implement SPC on all critical characteristics. The role demands deep expertise in sheet metal forming, progressive die operations, and lean manufacturing. You will use SolidWorks for die and fixture design reviews and AutoCAD for plant layout changes. Six Sigma Green Belt certification is required for leading DMAIC projects.","- BS in Mechanical or Manufacturing Engineering
+- 7+ years process engineering experience
+- Sheet metal stamping and forming expertise
+- SolidWorks and AutoCAD
+- DFMEA and PFMEA facilitation
+- SPC and process capability (Cpk > 1.33)
+- Lean Six Sigma Green Belt required
+- GD&T per ASME Y14.5
+- Root cause analysis methodology
+- ERP system for production tracking","Factory Automation"
+FA-031,"Vision Systems Engineer","InspectAI Manufacturing","Milwaukee, WI","InspectAI Manufacturing is hiring a Vision Systems Engineer to develop and deploy machine vision inspection systems on automated production lines. You will configure cameras, lighting, and image processing algorithms for defect detection and dimensional measurement. The role involves integrating vision systems with PLC-controlled manufacturing cells and industrial robots. Python is used for custom image processing and machine learning model development. You will work with the quality team on SPC integration and validate inspection accuracy against GD&T specifications.","- BS in Mechanical, Electrical, or Computer Engineering
+- 3+ years machine vision experience
+- Python for image processing and ML
+- PLC integration for vision triggers
+- Industrial robotics coordination
+- GD&T for dimensional inspection validation
+- SPC integration with vision data
+- Camera and lighting setup expertise
+- Machine learning for defect classification
+- Lean manufacturing quality principles","Factory Automation"
+FA-032,"Manufacturing Engineer - Assembly","ProLine Assembly Solutions","Greenville, SC","ProLine Assembly Solutions needs a Manufacturing Engineer for our automotive component assembly operations. You will design assembly processes, specify tooling and fixturing using SolidWorks, and work with PLC-controlled torque systems and presses. The role requires DFMEA facilitation, DFM/DFA review participation, and implementation of lean manufacturing tools including error-proofing (poka-yoke). You will track process metrics using SPC and our ERP system, and lead root cause analysis on quality escapes. GD&T knowledge is critical for interpreting assembly specifications.","- BS in Mechanical or Manufacturing Engineering
+- 3-5 years assembly manufacturing experience
+- SolidWorks for fixturing and process design
+- PLC-controlled assembly systems
+- DFMEA and error-proofing (poka-yoke)
+- DFM/DFA review capability
+- GD&T per ASME Y14.5
+- SPC and ERP system usage
+- Root cause analysis (8D)
+- Lean manufacturing (standard work, 5S)","Factory Automation"
+FA-033,"Data Analyst - Manufacturing","DataDriven Manufacturing","Minneapolis, MN","DataDriven Manufacturing is seeking a Data Analyst to transform our production data into actionable insights. You will build dashboards in Python and SQL that track OEE, scrap rates, and quality metrics across 5 production lines. The role requires pulling data from our ERP system (SAP), building machine learning models for predictive maintenance, and creating SPC reports for quality reviews. You will work closely with manufacturing engineers and support lean manufacturing kaizen events with data-driven analysis. Knowledge of manufacturing processes and the ability to present findings to non-technical audiences are important features of this role.","- BS in Data Science, Industrial Engineering, or related field
+- 2+ years data analysis in manufacturing
+- Python for data analysis and visualization
+- SQL for ERP data extraction
+- Machine learning basics (scikit-learn)
+- SPC and statistical analysis
+- ERP system familiarity (SAP preferred)
+- Lean manufacturing metrics understanding
+- Dashboard development (Plotly, Tableau, or Power BI)
+- Strong communication and presentation skills","Factory Automation"
+FA-034,"Mechanical Design Engineer","Conveyor Dynamics Inc","St. Louis, MO","Conveyor Dynamics Inc designs and manufactures custom conveyor systems for distribution centers and manufacturing facilities. We need a Mechanical Design Engineer to create conveyor assembly models in SolidWorks, perform structural analysis using FEA, and generate engineering drawings with GD&T. You will specify motors, bearings, and drive components, and work with our PLC engineers on system integration. DFM principles guide our design approach to ensure efficient fabrication using sheet metal, structural steel, and CNC-machined components. AutoCAD is used for installation layouts.","- BS in Mechanical Engineering
+- 3+ years mechanical design experience
+- SolidWorks proficiency required
+- FEA for structural validation
+- GD&T per ASME Y14.5
+- AutoCAD for installation layouts
+- DFM/DFA for fabrication optimization
+- Sheet metal and structural steel design
+- CNC machining knowledge for components
+- PLC systems awareness","Factory Automation"
+FA-035,"Entry-Level Automation Engineer","BrightPath Automation","Cleveland, OH","BrightPath Automation is looking for an Entry-Level Automation Engineer to join our growing team. This position is ideal for recent ME graduates interested in industrial automation. You will assist with PLC programming, robot teaching, and commissioning of automated manufacturing cells. Training will be provided on Allen-Bradley PLCs, FANUC robots, and pneumatic system design. You will learn SolidWorks for cell layout design and gain exposure to lean manufacturing, GD&T, and SPC concepts. Candidates pursuing or holding FE exam (EIT) certification are preferred.","- BS in Mechanical, Electrical, or Mechatronics Engineering
+- Recent graduate or up to 1 year experience
+- Basic understanding of PLC concepts
+- Interest in industrial robotics
+- SolidWorks or AutoCAD familiarity
+- Eagerness to learn automation technologies
+- Basic understanding of GD&T
+- FE exam (EIT) preferred
+- Strong hands-on mechanical aptitude
+- Willingness to travel for commissioning","Factory Automation"
+FA-036,"Process Improvement Specialist","OptiFlow Industries","Charlotte, NC","OptiFlow Industries is hiring a Process Improvement Specialist to drive efficiency gains in our plastics manufacturing operation. You will lead Lean Six Sigma projects focusing on injection molding, extrusion, and secondary operations. The role requires data analysis using Python and Excel, facilitation of kaizen events, and implementation of SPC on critical quality features of our products. You will work with the engineering team on DFMEA reviews and DFM recommendations. Experience with ERP systems for production data and lean manufacturing value stream mapping is essential.","- BS in Industrial or Mechanical Engineering
+- 3+ years process improvement in manufacturing
+- Lean Six Sigma Green Belt certification
+- Injection molding process knowledge
+- Python or Excel for data analysis
+- SPC and process capability analysis
+- DFMEA facilitation
+- DFM/DFA reviews
+- ERP system data extraction
+- Lean manufacturing (VSM, kaizen, 5S)","Factory Automation"
+FA-037,"Automation Technician Lead","FlexLine Manufacturing","Dayton, OH","FlexLine Manufacturing needs an Automation Technician Lead to supervise our maintenance and automation team. You will troubleshoot PLC programs (Allen-Bradley), repair hydraulic and pneumatic systems, and maintain industrial robots (ABB). The role is hands-on: expect to be on the factory floor diagnosing equipment issues and implementing predictive maintenance strategies. You will use SolidWorks for spare parts documentation and coordinate with engineering on lean manufacturing improvement projects. SPC data collection and root cause analysis are part of your quality responsibilities.","- Associates or BS in Mechanical/Electrical Engineering Technology
+- 5+ years automation troubleshooting experience
+- PLC troubleshooting (Allen-Bradley)
+- ABB or FANUC robot maintenance
+- Hydraulic and pneumatic repair
+- Predictive maintenance techniques
+- SolidWorks for parts documentation
+- Lean manufacturing awareness
+- SPC data collection
+- Root cause analysis and team leadership","Factory Automation"
+FA-038,"Design Engineer - Custom Machinery","MachineCraft Solutions","Grand Rapids, MI","MachineCraft Solutions is hiring a Design Engineer to create custom automated machinery for manufacturing clients. You will design complex assemblies in SolidWorks including precision mechanisms, conveyor modules, and robotic work cells. The role requires FEA validation of structural components, GD&T documentation, and DFM review for CNC-machined and sheet metal parts. You will collaborate with PLC programmers on mechanical-electrical interface design and support lean manufacturing approaches to machine assembly. This is a creative engineering role where no two projects are the same.","- BS in Mechanical Engineering
+- 3-5 years custom machinery design
+- SolidWorks expert proficiency
+- FEA for structural and dynamic analysis
+- GD&T per ASME Y14.5
+- DFM/DFA for CNC and sheet metal
+- Tolerance stack-up analysis
+- PLC mechanical interface design
+- Lean manufacturing for machine assembly
+- AutoCAD for site layouts","Factory Automation"
+FA-039,"Manufacturing Engineer - Stamping","MetalForm Automotive","Toledo, OH","MetalForm Automotive is seeking a Manufacturing Engineer to support our high-volume automotive stamping operations. You will optimize progressive die processes, reduce scrap through SPC analysis, and lead lean manufacturing initiatives on the press floor. SolidWorks is used for die modification design, and AutoCAD for plant layout changes. The role requires strong GD&T skills for part verification, DFMEA facilitation for new product launches, and Six Sigma methodology for process improvement. You will interface with customer quality teams on PPAP submissions and manage our SPC software.","- BS in Mechanical or Manufacturing Engineering
+- 3+ years stamping/metal forming experience
+- SolidWorks and AutoCAD
+- GD&T and CMM inspection
+- SPC and Six Sigma methodology
+- DFMEA facilitation
+- Lean manufacturing (5S, standard work)
+- PPAP and APQP documentation
+- Progressive die operations knowledge
+- ERP system for production tracking","Factory Automation"
+FA-040,"Robotics Maintenance Specialist","TechServ Automation","Pittsburgh, PA","TechServ Automation is looking for a Robotics Maintenance Specialist to service FANUC industrial robots across our client facilities. You will perform preventive maintenance, troubleshoot servo drives and encoders, and recalibrate robot positions. The role requires PLC troubleshooting skills for diagnosing communication issues between robots and cell controllers. Understanding of pneumatic grippers, hydraulic clamping, and safety interlock systems is essential. You will document maintenance procedures and train client maintenance teams. Lean manufacturing TPM knowledge helps guide our service approach.","- Associates or BS in Mechanical/Electrical Engineering
+- 3+ years industrial robot maintenance
+- FANUC robot service and programming
+- PLC troubleshooting
+- Pneumatic and hydraulic systems
+- Servo drive and encoder diagnostics
+- Safety system troubleshooting
+- Lean manufacturing TPM awareness
+- Technical documentation skills
+- Travel 40-50% to client sites","Factory Automation"
+FA-041,"Senior Controls Engineer","ProControl Systems","Indianapolis, IN","ProControl Systems designs control systems for food processing and pharmaceutical manufacturing. We need a Senior Controls Engineer to lead PLC and HMI programming for batch processing systems, clean-in-place (CIP) sequences, and material handling automation. You will program Allen-Bradley PLCs using structured text and function blocks, develop Ignition SCADA interfaces, and integrate industrial robots for palletizing. The role requires understanding of sanitary design, pneumatic valve manifolds, and predictive maintenance sensor integration. SQL is used for batch record management and production reporting.","- BS in Electrical or Mechatronics Engineering
+- 7+ years controls engineering experience
+- Allen-Bradley PLC expert (structured text, function blocks)
+- HMI/SCADA development (Ignition, FactoryTalk)
+- Industrial robotics integration
+- Pneumatic valve manifold design
+- Predictive maintenance sensor integration
+- SQL for batch records and production data
+- ISO 9001 and food safety compliance
+- Project management and team leadership","Factory Automation"
+FA-042,"Tool and Die Maker","Patriot Die & Stamping","Toledo, OH","Patriot Die & Stamping is hiring a Tool and Die Maker to build and maintain progressive dies and custom tooling in our in-house tool room. You will read SolidWorks models and engineering drawings with GD&T, operate CNC milling and grinding machines, and perform die tryout and adjustment. The role requires precision machining skills, understanding of sheet metal forming theory, and lean manufacturing shop management. SPC is used to verify critical tool dimensions during builds.","- Journeyman Tool and Die certification or equivalent
+- 5+ years tool and die making experience
+- CNC milling and grinding operation
+- SolidWorks drawing interpretation
+- GD&T per ASME Y14.5
+- Sheet metal forming and progressive die expertise
+- SPC for dimensional verification
+- Lean manufacturing shop organization (5S)
+- Wire EDM experience preferred
+- Strong attention to detail","Factory Automation"
+FA-043,"Facilities Maintenance Engineer","Summit Operations Group","Birmingham, AL","Summit Operations Group is hiring a Facilities Maintenance Engineer for our food manufacturing facility. You will manage building systems including HVAC, refrigeration, compressed air, and steam. The role includes PLC troubleshooting for building automation, coordination with production on lean manufacturing downtime scheduling, and compliance with OSHA, FDA, and ISO 9001 requirements. AutoCAD is used for facility drawings and equipment placement. Predictive maintenance using vibration analysis and thermal imaging is a core responsibility.","- BS in Mechanical or Facilities Engineering
+- 4+ years facilities maintenance in manufacturing
+- HVAC and refrigeration systems
+- PLC troubleshooting for building automation
+- AutoCAD for facility drawings
+- Predictive maintenance (vibration, thermal imaging)
+- ISO 9001 and FDA compliance
+- OSHA safety requirements
+- Lean manufacturing downtime management
+- Vendor and contractor coordination","Factory Automation"
+FA-044,"Automation Project Manager","Blueprint Automation","Greenville, SC","Blueprint Automation manages turnkey automation projects for automotive and aerospace manufacturers. We need an Automation Project Manager to coordinate multi-discipline engineering teams delivering PLC-controlled robotic assembly and testing cells. You will manage project schedules, budgets, and technical risks. Understanding of PLC programming, FANUC robot integration, and SolidWorks-based mechanical design is needed to effectively lead engineering reviews. Six Sigma and lean manufacturing experience helps drive efficient project execution.","- BS in Mechanical or Industrial Engineering
+- 5+ years automation project experience
+- PMP or project management methodology
+- PLC and robotics systems understanding
+- SolidWorks familiarity for design reviews
+- FANUC robot integration knowledge
+- Lean Six Sigma certification preferred
+- Budget and schedule management
+- Customer communication and reporting
+- Risk management and mitigation","Factory Automation"
+FA-045,"Industrial Electrician","Midwest Electrical Services","Kansas City, MO","Midwest Electrical Services is looking for an Industrial Electrician to install and maintain electrical systems in manufacturing facilities. You will wire PLC panels, install motor drives, and troubleshoot Allen-Bradley control systems. The role requires reading electrical schematics, understanding of pneumatic and hydraulic valve control wiring, and compliance with NEC code. You will support equipment installations, predictive maintenance programs, and lean manufacturing TPM initiatives. SPC knowledge for monitoring electrical system performance is a plus.","- Journeyman Electrician license
+- 3+ years industrial electrical experience
+- PLC panel wiring and troubleshooting
+- Allen-Bradley systems
+- Motor drive installation (VFDs, servos)
+- Pneumatic and hydraulic valve wiring
+- NEC code compliance
+- Predictive maintenance support
+- Lean manufacturing TPM awareness
+- Schematic reading proficiency","Factory Automation"
+FA-046,"Manufacturing Process Engineer","Allegiance Manufacturing","Rochester, NY","Allegiance Manufacturing is seeking a Manufacturing Process Engineer to develop and optimize machining processes for medical device components. You will program CNC mills and lathes, design fixtures in SolidWorks, and validate processes per ISO 9001 and FDA requirements. GD&T expertise is critical for tight-tolerance medical parts. The role includes SPC implementation on all critical dimensions, DFMEA facilitation for new products, and lean manufacturing improvements for our clean room assembly area. FEA may be used for fixture stiffness validation.","- BS in Mechanical or Biomedical Engineering
+- 3+ years medical device manufacturing
+- CNC programming and setup
+- SolidWorks for fixture design
+- GD&T expertise (tight tolerances)
+- ISO 9001 and FDA process validation
+- SPC for critical dimensions
+- DFMEA facilitation
+- FEA for fixture validation
+- Lean manufacturing in clean room environment","Factory Automation"
+FA-047,"Senior Mechanical Designer","FlexDesign Engineering","Milwaukee, WI","FlexDesign Engineering is hiring a Senior Mechanical Designer to create detailed machine designs in SolidWorks for automated packaging and assembly systems. You will model complex mechanisms, generate fully dimensioned drawings with GD&T, and conduct tolerance stack-up analysis. The role includes DFM reviews for CNC and sheet metal components, FEA stress analysis for critical parts, and collaboration with PLC and controls engineers on mechanical-electrical interfaces. CSWP certification is strongly preferred.","- BS in Mechanical Engineering or Mechanical Design Technology
+- 7+ years mechanical design experience
+- SolidWorks expert (CSWP certification preferred)
+- GD&T per ASME Y14.5
+- Tolerance stack-up analysis
+- FEA using SolidWorks Simulation
+- DFM/DFA for CNC and sheet metal
+- PLC interface design knowledge
+- Lean manufacturing principles
+- AutoCAD for legacy drawings","Factory Automation"
+FA-048,"Process Controls Technician","ValleyPro Manufacturing","St. Louis, MO","ValleyPro Manufacturing needs a Process Controls Technician to maintain and troubleshoot PLC-controlled production equipment in our chemical processing facility. You will diagnose control system faults, calibrate sensors and transmitters, and support automation upgrades. Allen-Bradley PLC proficiency is required. The role includes maintaining pneumatic and hydraulic control valves, implementing predictive maintenance on rotating equipment, and supporting lean manufacturing TPM programs. SPC data collection from process instruments is part of the quality program.","- Associates or BS in Electrical/Instrumentation Technology
+- 3+ years process controls experience
+- Allen-Bradley PLC troubleshooting
+- Sensor and transmitter calibration
+- Pneumatic and hydraulic control valves
+- Predictive maintenance on rotating equipment
+- SPC data collection
+- Lean manufacturing TPM
+- ISA instrumentation standards
+- Root cause analysis for control system failures","Factory Automation"
+FA-049,"Machine Shop Supervisor","Heritage Machining","Dayton, OH","Heritage Machining is looking for a Machine Shop Supervisor to lead our team of 15 CNC machinists and operators. You will manage daily production schedules, ensure quality standards are met per ISO 9001, and drive lean manufacturing improvements on the shop floor. SolidWorks is used for reviewing engineering drawings and fixture designs. GD&T knowledge is required for first-article inspection and SPC program management. You will track production metrics in our ERP system (SAP) and lead root cause analysis on quality issues.","- BS or Associates in Manufacturing Engineering (or equivalent experience)
+- 5+ years CNC machining experience with 2+ years supervision
+- CNC machining proficiency (turning and milling)
+- SolidWorks drawing interpretation
+- GD&T and CMM inspection
+- ISO 9001 quality management
+- SPC program management
+- ERP system (SAP) for production tracking
+- Lean manufacturing (5S, standard work)
+- Root cause analysis and team leadership","Factory Automation"
+FA-050,"Additive Manufacturing Engineer","NextLayer Technologies","Minneapolis, MN","NextLayer Technologies is hiring an Additive Manufacturing Engineer to operate and optimize our metal and polymer 3D printing systems. You will develop print parameters, design support structures, and post-process parts for manufacturing clients. SolidWorks is used for part preparation and design modification. The role includes FEA validation of printed parts, DFM reviews comparing additive vs. traditional manufacturing, and quality inspection using GD&T. Python scripting for build preparation automation and data analysis is a growing part of this role.","- BS in Mechanical or Materials Engineering
+- 2+ years additive manufacturing experience
+- SolidWorks for part design and build prep
+- 3D printing (SLM, FDM, SLA technologies)
+- FEA for printed part validation
+- DFM comparison (additive vs. CNC/casting)
+- GD&T for quality inspection
+- Python for automation scripting
+- Materials science fundamentals
+- Lean manufacturing for workflow optimization","Factory Automation"
+FA-051,"Quality Inspector Lead","Sterling Quality Services","Cincinnati, OH","Sterling Quality Services is seeking a Quality Inspector Lead to manage first-article and in-process inspection in our CNC machining facility. You will operate CMM equipment, interpret engineering drawings with GD&T, and maintain SPC records for all critical dimensions. The role includes training inspectors, conducting internal audits per ISO 9001, and supporting root cause analysis on non-conforming parts. Lean manufacturing visual management tools are used for real-time quality status communication. SolidWorks model viewing for drawing clarification is expected.","- 5+ years quality inspection in precision machining
+- CMM programming and operation
+- GD&T expert per ASME Y14.5
+- SPC and control chart management
+- ISO 9001 internal audit experience
+- Root cause analysis (8D)
+- SolidWorks viewer proficiency
+- CNC machining process understanding
+- Lean manufacturing visual management
+- Inspection team leadership","Factory Automation"
+FA-052,"Simulation Engineer - Manufacturing","SimFactory Solutions","Grand Rapids, MI","SimFactory Solutions is hiring a Simulation Engineer to model and optimize manufacturing processes using discrete event simulation and FEA. You will build factory simulation models to predict throughput, identify bottlenecks, and validate automation investments before build. MATLAB and Python are used for simulation scripting. The role also includes FEA for tooling and fixture validation and working with SolidWorks for 3D factory models. Lean manufacturing principles inform our simulation objectives.","- BS in Mechanical or Industrial Engineering
+- 3+ years manufacturing simulation experience
+- MATLAB and/or Python for simulation modeling
+- FEA for tooling and structural analysis
+- SolidWorks for 3D factory modeling
+- Lean manufacturing metrics and objectives
+- Discrete event simulation tools
+- DFM/DFA analysis
+- GD&T understanding
+- Strong data analysis and presentation skills","Factory Automation"
+FA-053,"Controls Integration Specialist","IntegrateNow Automation","Indianapolis, IN","IntegrateNow Automation is looking for a Controls Integration Specialist to wire, program, and commission PLC-based control panels for industrial automation projects. You will program Allen-Bradley PLCs, configure safety systems, and integrate FANUC robots into automated cells. Pneumatic and hydraulic circuit commissioning is part of the role. SolidWorks is used for panel layout review and AutoCAD for field wiring documentation. You will support predictive maintenance sensor installation and lean manufacturing cell optimization at customer sites.","- BS or Associates in Electrical or Mechatronics Engineering
+- 3+ years controls integration experience
+- Allen-Bradley PLC programming
+- FANUC robot integration
+- Safety PLC configuration
+- Pneumatic and hydraulic commissioning
+- SolidWorks and AutoCAD familiarity
+- Predictive maintenance sensor setup
+- Lean manufacturing awareness
+- Travel 30-40% for commissioning","Factory Automation"
+FA-054,"Thermal Process Engineer","HeatTech Manufacturing","Kansas City, MO","HeatTech Manufacturing is seeking a Thermal Process Engineer to optimize heat treatment and coating processes for metal components. You will develop thermal cycle recipes, monitor furnace performance using thermocouples and data loggers, and use thermal analysis simulation to predict part properties. SPC on critical parameters like hardness and case depth is required. The role includes SolidWorks for fixture design, lean manufacturing for throughput optimization, and Python for data analysis. Understanding of CNC post-machining is important for the complete process chain.","- BS in Mechanical or Materials Engineering
+- 3+ years thermal processing experience
+- Thermal analysis and simulation knowledge
+- SPC for process parameter control
+- SolidWorks for fixture design
+- Python for data analysis
+- CNC machining awareness
+- Lean manufacturing throughput optimization
+- ISO 9001 process control
+- GD&T for post-process inspection","Factory Automation"
+FA-055,"Senior Industrial Engineer","Optima Production Systems","Charlotte, NC","Optima Production Systems is hiring a Senior Industrial Engineer to lead facility layout redesigns, capacity planning, and labor efficiency projects. You will develop material flow analyses using AutoCAD and SolidWorks, implement lean manufacturing cell designs, and optimize staffing levels using time study data. The role requires SQL skills for querying production databases, ERP system expertise for capacity modeling, and project management methodology for capital projects. Six Sigma certification is expected for leading process improvement initiatives.","- BS in Industrial or Mechanical Engineering
+- 7+ years industrial engineering experience
+- AutoCAD and SolidWorks for layout design
+- Lean manufacturing cell design and material flow
+- SQL for production data analysis
+- ERP system expertise for capacity modeling
+- Lean Six Sigma Green Belt or higher
+- Time study and work measurement
+- Project management methodology
+- SPC for process monitoring","Factory Automation"
+FA-056,"Metrology Engineer","Precision Metrics Inc","Dayton, OH","Precision Metrics Inc is looking for a Metrology Engineer to manage our inspection laboratory and CMM programming for aerospace and automotive clients. You will develop inspection plans based on GD&T, program Zeiss and Hexagon CMMs, and validate measurement system capability through MSA studies. SPC for in-process and final inspection data is a core responsibility. SolidWorks is used for understanding part geometry, and our ISO 9001 system governs all inspection procedures. Lean manufacturing principles guide our approach to inspection efficiency.","- BS in Mechanical Engineering or Metrology
+- 3+ years CMM programming experience
+- GD&T expert per ASME Y14.5
+- MSA and Gage R&R studies
+- SPC program management
+- SolidWorks for geometry understanding
+- ISO 9001 compliance
+- Lean manufacturing inspection efficiency
+- PCDMIS or Calypso software
+- Attention to detail and documentation skills","Factory Automation"
+FA-057,"Robotic Welding Programmer","WeldTech Automation","Grand Rapids, MI","WeldTech Automation is hiring a Robotic Welding Programmer to develop and optimize welding programs for FANUC arc welding robots. You will create weld paths, tune torch parameters, and troubleshoot quality issues. SolidWorks is used for fixture design and weld joint modeling. The role requires PLC integration for cell sequencing, pneumatic clamping knowledge, and GD&T for weld specification verification. SPC monitors critical weld dimensions. Lean manufacturing principles drive our approach to setup reduction and multi-part flexibility.","- 3+ years robotic welding programming
+- FANUC arc welding robot expertise
+- SolidWorks for fixture and joint modeling
+- PLC integration for cell control
+- Pneumatic clamping systems
+- GD&T for weld specifications
+- SPC for weld quality monitoring
+- Lean manufacturing (setup reduction)
+- Welding metallurgy fundamentals
+- Root cause analysis for weld defects","Factory Automation"
+FA-058,"Manufacturing Systems Analyst","CoreData Manufacturing","Pittsburgh, PA","CoreData Manufacturing is seeking a Manufacturing Systems Analyst to manage and optimize our MES and ERP systems. You will configure SAP production modules, build SQL reports for operational KPIs, and support lean manufacturing data collection initiatives. Python is used for advanced analytics including machine learning models that predict demand and optimize scheduling. The role bridges IT and operations, requiring understanding of manufacturing processes, SPC data structures, and how PLC data feeds into the MES layer.","- BS in Industrial Engineering or Information Systems
+- 3+ years MES/ERP administration in manufacturing
+- SQL expert for reporting and data extraction
+- SAP production module configuration
+- Python for analytics and machine learning
+- Understanding of PLC data integration
+- SPC data structure management
+- Lean manufacturing metrics (OEE, TAKT)
+- Manufacturing process knowledge
+- Strong communication between IT and ops","Factory Automation"
+FA-059,"Custom Automation Designer","BuildRight Engineering","Milwaukee, WI","BuildRight Engineering designs custom automation solutions. We need a Custom Automation Designer to develop concepts and detailed designs in SolidWorks for automated assembly, testing, and packaging systems. You will create mechanism designs, sheet metal enclosures, and CNC-machined precision components. GD&T and tolerance stack-up analysis ensure assemblies meet functional requirements. FEA is used for structural validation of machine frames. DFM reviews are conducted with our fabrication shop. You will interface with PLC engineers on mechanical-electrical coordination and apply lean manufacturing principles to machine assembly.","- BS in Mechanical Engineering
+- 4+ years custom automation design
+- SolidWorks expert proficiency
+- GD&T and tolerance stack-up analysis
+- FEA for structural validation
+- DFM/DFA for CNC and sheet metal
+- Sheet metal enclosure design
+- PLC interface coordination
+- Lean manufacturing for machine assembly
+- AutoCAD for site installation drawings","Factory Automation"
+FA-060,"Process Safety Engineer","SafeGuard Manufacturing","St. Louis, MO","SafeGuard Manufacturing is hiring a Process Safety Engineer to ensure all automated manufacturing systems meet OSHA, NFPA, and ANSI/RIA safety requirements. You will conduct risk assessments, design safety PLC systems, and validate machine guarding. The role requires understanding of PLC-controlled safety circuits, pneumatic lockout/tagout procedures, and hydraulic safety systems. SolidWorks is used for guarding design. You will integrate safety features into manufacturing cell designs and train operators on safe procedures. Lean manufacturing safety audits are part of the continuous improvement program. This role focuses on the interface between safety regulations and production efficiency.","- BS in Mechanical or Safety Engineering
+- 3+ years machine safety experience
+- Safety PLC programming and validation
+- OSHA and ANSI/RIA safety standards
+- SolidWorks for guarding design
+- PLC-controlled safety circuits
+- Pneumatic and hydraulic safety systems
+- Risk assessment methodology
+- Lean manufacturing safety integration
+- Training and documentation skills","Factory Automation"
+FA-061,"Material Handling Engineer","FlowPath Systems","Memphis, TN","FlowPath Systems designs automated material handling solutions including conveyors, AGVs, and sortation systems for distribution centers and manufacturing plants. We need a Material Handling Engineer to design conveyor systems in SolidWorks, specify motors and drives, and work with PLC engineers on control sequences. AutoCAD is used for facility layout drawings. The role requires DFM awareness for fabrication of structural steel and sheet metal components. Lean manufacturing principles inform our system designs to minimize work-in-process and optimize material flow.","- BS in Mechanical or Industrial Engineering
+- 3+ years material handling design
+- SolidWorks for conveyor system design
+- AutoCAD for facility layouts
+- PLC systems awareness for controls
+- DFM for structural and sheet metal fabrication
+- Motor and drive specification
+- Lean manufacturing material flow design
+- GD&T for component specifications
+- Project management skills","Factory Automation"
+FA-062,"Manufacturing Trainer","SkillForge Industries","Cincinnati, OH","SkillForge Industries is hiring a Manufacturing Trainer to develop and deliver training programs for CNC operators, PLC technicians, and quality inspectors. You will create training materials on SolidWorks drawing interpretation, GD&T fundamentals, lean manufacturing tools (5S, standard work), and SPC data collection. The role requires deep hands-on experience in manufacturing to credibly train shop floor personnel. You will track training effectiveness using our ERP system and support continuous improvement by coaching lean manufacturing principles.","- BS in Mechanical or Manufacturing Engineering (or equivalent experience)
+- 5+ years manufacturing experience
+- CNC machining knowledge
+- PLC systems familiarity
+- SolidWorks drawing interpretation
+- GD&T teaching capability
+- Lean manufacturing training (5S, standard work)
+- SPC and quality concepts
+- ERP system for training records
+- Strong presentation and instructional skills","Factory Automation"
+FA-063,"Mold Design Engineer","CastForm Engineering","Rochester, NY","CastForm Engineering designs and manufactures injection molds for automotive and consumer products. We need a Mold Design Engineer to create detailed mold designs in SolidWorks, specify mold components, and work with our CNC machining department on fabrication. The role requires expertise in injection molding process, DFM for molded parts, and GD&T for part and mold specifications. Tolerance stack-up analysis ensures mold components align properly. Moldflow simulation is used for gate location and filling optimization. Lean manufacturing guides our mold build process.","- BS in Mechanical or Plastics Engineering
+- 4+ years mold design experience
+- SolidWorks for mold design
+- Injection molding process expertise
+- DFM for molded parts
+- GD&T per ASME Y14.5
+- Tolerance stack-up analysis
+- CNC machining knowledge for mold builds
+- Moldflow simulation
+- Lean manufacturing for mold shop efficiency","Factory Automation"
+FA-064,"Laser Cutting Programmer","PrecisionCut Manufacturing","Charlotte, NC","PrecisionCut Manufacturing is hiring a Laser Cutting Programmer to develop programs for our fiber laser and CO2 laser cutting systems. You will nest parts for optimal material utilization, set cutting parameters, and ensure cut quality meets GD&T specifications. SolidWorks and AutoCAD are used for part file preparation. The role includes CNC programming for secondary bending operations, SPC monitoring of cut quality, and lean manufacturing initiatives for material waste reduction. You will work with the engineering team on DFM feedback for sheet metal designs.","- 3+ years laser cutting programming
+- Fiber and CO2 laser operation
+- SolidWorks and AutoCAD for file preparation
+- GD&T for cut quality verification
+- CNC press brake programming
+- SPC for quality monitoring
+- DFM for sheet metal optimization
+- Lean manufacturing (material waste reduction)
+- Nesting software proficiency
+- Sheet metal fabrication knowledge","Factory Automation"
+FA-065,"Automation Sales Engineer","TechSell Solutions","Indianapolis, IN","TechSell Solutions sells automated manufacturing solutions to Tier 1 and Tier 2 automotive suppliers. We need an Automation Sales Engineer who can speak the language of manufacturing engineers. You will develop technical proposals, conduct factory assessments, and present automation concepts using SolidWorks renderings. Understanding of PLC systems, industrial robotics (FANUC), lean manufacturing ROI calculations, and CNC machining processes is essential. You will quantify the features and benefits of automation investments for customers and interface with our engineering team on solution design.","- BS in Mechanical or Industrial Engineering
+- 3+ years in manufacturing or automation
+- SolidWorks for concept presentations
+- PLC and robotics systems knowledge
+- FANUC and ABB robot awareness
+- Lean manufacturing ROI analysis
+- CNC machining process understanding
+- Technical proposal writing
+- Customer relationship management
+- Strong presentation skills","Factory Automation"
+FA-066,"Predictive Maintenance Analyst","InsightOps Manufacturing","Milwaukee, WI","InsightOps Manufacturing is seeking a Predictive Maintenance Analyst to build and manage our condition-based monitoring program. You will deploy vibration analysis sensors, thermal cameras, and ultrasonic detectors across 300+ pieces of production equipment. Python and machine learning models will help predict failures. The role includes integrating sensor data with our PLC systems and CMMS database (SQL). You will analyze failure patterns, build maintenance dashboards, and support lean manufacturing TPM objectives. Understanding of CNC, hydraulic, and pneumatic equipment failure modes is essential.","- BS in Mechanical or Reliability Engineering
+- 3+ years predictive maintenance experience
+- Vibration analysis certification (ISO 18436)
+- Python for data analysis and machine learning
+- SQL for CMMS and sensor databases
+- PLC data integration
+- CNC and hydraulic equipment knowledge
+- Lean manufacturing TPM
+- Thermal imaging and ultrasonic testing
+- Dashboard development and reporting","Factory Automation"
+FA-067,"Lean Six Sigma Black Belt","Pinnacle Manufacturing Group","Grand Rapids, MI","Pinnacle Manufacturing Group is hiring a Lean Six Sigma Black Belt to lead high-impact process improvement projects across our 4 manufacturing facilities. You will apply DMAIC methodology, coach Green Belts, and deliver $500K+ in annual savings. The role requires expert-level SPC, root cause analysis, and DFMEA facilitation. You will work with PLC-controlled systems, CNC machining operations, and assembly lines. SQL and Python are used for data mining and analysis. SolidWorks understanding helps with DFM review participation. ISO 9001 audit support is also expected.","- BS in Engineering (MS preferred)
+- Lean Six Sigma Black Belt certification
+- 7+ years manufacturing experience
+- SPC and advanced statistics
+- Root cause analysis (8D, DOE, regression)
+- DFMEA facilitation
+- Python and SQL for data analysis
+- PLC systems and CNC process knowledge
+- SolidWorks for DFM reviews
+- ISO 9001 audit support","Factory Automation"
+FA-068,"Assembly Line Engineer","NextGen Assembly","Greenville, SC","NextGen Assembly is seeking an Assembly Line Engineer to design and optimize our manual and semi-automated assembly operations for electronic control modules. You will design assembly workstations using SolidWorks, implement error-proofing (poka-yoke) techniques, and work with PLC-controlled torque and press systems. The role requires DFMEA for new product assembly processes, DFM/DFA review for component design, and SPC monitoring of critical assembly parameters. GD&T knowledge ensures parts meet assembly fit requirements. Lean manufacturing standard work and 5S are the foundation of our production system.","- BS in Mechanical or Industrial Engineering
+- 3+ years assembly engineering experience
+- SolidWorks for workstation and fixture design
+- PLC-controlled assembly systems
+- DFMEA and error-proofing (poka-yoke)
+- DFM/DFA reviews
+- GD&T per ASME Y14.5
+- SPC for assembly parameters
+- Lean manufacturing (standard work, 5S)
+- Root cause analysis for assembly defects","Factory Automation"
+FA-069,"CNC Machining Center Operator - Senior","Elite Machining Corp","Dayton, OH","Elite Machining Corp needs a Senior CNC Machining Center Operator to run 4-axis and 5-axis horizontal machining centers producing tight-tolerance aerospace components. You will set up machines, adjust offsets, inspect parts using GD&T callouts, and collect SPC data. The role requires G-code troubleshooting, basic SolidWorks for program verification, and lean manufacturing 5S housekeeping. ISO 9001 work instruction adherence is mandatory. You will train junior operators and support DFM feedback to engineering.","- 7+ years CNC machining experience
+- 4-axis and 5-axis HMC operation
+- G-code interpretation and editing
+- GD&T inspection per ASME Y14.5
+- SPC data collection
+- SolidWorks model viewing
+- ISO 9001 compliance
+- Lean manufacturing 5S
+- DFM feedback capability
+- Training and mentoring junior operators","Factory Automation"
+FA-070,"Factory IoT Engineer","SmartPlant Technologies","Minneapolis, MN","SmartPlant Technologies is hiring a Factory IoT Engineer to connect production equipment to our cloud-based manufacturing analytics platform. You will install sensors, configure edge gateways, and integrate PLC data (Allen-Bradley OPC-UA) with our IoT backend. Python is used for data pipeline development and machine learning models for anomaly detection. SQL manages time-series databases. The role requires understanding of CNC, injection molding, and assembly equipment to properly instrument production processes. Predictive maintenance is a key application. Lean manufacturing OEE tracking is the primary use case for our platform.","- BS in Mechanical, Electrical, or Computer Engineering
+- 2+ years IoT or automation experience
+- Python for data pipelines and ML
+- SQL for time-series databases
+- PLC data integration (OPC-UA)
+- Allen-Bradley and Siemens connectivity
+- Predictive maintenance applications
+- CNC and manufacturing equipment knowledge
+- Lean manufacturing OEE metrics
+- Machine learning for anomaly detection","Factory Automation"
+FA-071,"Quality Systems Engineer","QualityCore Manufacturing","Cleveland, OH","QualityCore Manufacturing is seeking a Quality Systems Engineer to maintain and improve our ISO 9001 and IATF 16949 quality management systems. You will manage document control, conduct internal audits, and ensure corrective action processes are effective. The role requires SPC expertise, DFMEA and PFMEA facilitation, and root cause analysis leadership. You will interface with customers on PPAP submissions and manage our calibration program. GD&T expertise and SolidWorks drawing review capability are essential. SQL for quality data trending and ERP system management are daily tools.","- BS in Mechanical or Industrial Engineering
+- 4+ years quality systems experience
+- ISO 9001 and/or IATF 16949 expertise
+- Internal audit certification
+- SPC and process capability
+- DFMEA/PFMEA facilitation
+- Root cause analysis (8D)
+- GD&T expertise
+- SolidWorks drawing review
+- SQL and ERP system management","Factory Automation"
+FA-072,"Motion Control Engineer","DynaMotion Systems","Pittsburgh, PA","DynaMotion Systems designs high-speed automated assembly systems with precision motion control. We need a Motion Control Engineer to program servo systems, develop PLC motion sequences, and optimize multi-axis coordinated motion for pick-and-place and packaging applications. Allen-Bradley Kinetix servo drives and CompactLogix PLCs are our primary platforms. SolidWorks is used for mechanism design and FEA for dynamic load analysis. The role requires understanding of cam profiles, pneumatic assist systems, and lean manufacturing cycle time optimization.","- BS in Mechanical or Electrical Engineering
+- 3+ years motion control experience
+- Allen-Bradley servo drive programming
+- PLC motion control (CompactLogix)
+- SolidWorks for mechanism design
+- FEA for dynamic load analysis
+- Cam profile design and optimization
+- Pneumatic system integration
+- Lean manufacturing cycle time optimization
+- GD&T for precision component specs","Factory Automation"
+FA-073,"Manufacturing Engineer - Medical Devices","BioAssembly Solutions","Minneapolis, MN","BioAssembly Solutions manufactures medical device sub-assemblies in our ISO 9001 and ISO 13485 certified facility. We need a Manufacturing Engineer to develop assembly processes, design SolidWorks fixtures, and validate equipment per IQ/OQ/PQ protocols. GD&T is critical for tight-tolerance medical components. SPC on all critical dimensions is required. The role includes DFMEA facilitation, lean manufacturing implementation, and PLC-controlled assembly system support. Python for data analysis and SQL for quality records are growing responsibilities. FE exam (EIT) credential is valued.","- BS in Mechanical or Biomedical Engineering
+- 3+ years medical device manufacturing
+- SolidWorks for fixture design
+- GD&T for tight-tolerance parts
+- SPC and process validation (IQ/OQ/PQ)
+- DFMEA facilitation
+- ISO 9001 and ISO 13485
+- PLC system support
+- Python and SQL for data analysis
+- Lean manufacturing and FE exam preferred","Factory Automation"
+FA-074,"Senior Robotics Programmer","RoboWorks Engineering","Grand Rapids, MI","RoboWorks Engineering is seeking a Senior Robotics Programmer to lead programming and optimization of FANUC and ABB industrial robots for welding, assembly, and material handling applications. You will develop robot programs, design end-of-arm tooling in SolidWorks, and integrate robots with Allen-Bradley PLC cell controllers. The role requires expertise in pneumatic and hydraulic gripper design, GD&T for part positioning accuracy, and lean manufacturing cell layout. You will mentor junior programmers and lead robot simulation using RobotStudio or Roboguide. SPC validates robot process repeatability.","- BS in Mechanical or Robotics Engineering
+- 7+ years industrial robot programming
+- FANUC and ABB robot platforms
+- SolidWorks for EOAT design
+- Allen-Bradley PLC integration
+- Pneumatic and hydraulic gripper design
+- GD&T for positioning accuracy
+- Lean manufacturing cell layout
+- Robot simulation (RobotStudio, Roboguide)
+- SPC for process repeatability validation","Factory Automation"
+FA-075,"Manufacturing Engineering Co-Op","ProBuild Manufacturing","Cleveland, OH","ProBuild Manufacturing is offering a Manufacturing Engineering Co-Op position for current engineering students. You will rotate through our CNC machining, assembly, and quality departments gaining hands-on experience. Projects include SPC data collection, lean manufacturing 5S audits, SolidWorks drawing updates, and assisting with kaizen events. You will learn PLC basics, GD&T interpretation, and root cause analysis under the mentorship of senior engineers. This is a 6-month paid position with potential for full-time hire after graduation. Candidates preparing for the FE exam are encouraged to apply.","- Currently pursuing BS in Mechanical or Manufacturing Engineering
+- Completed sophomore year minimum
+- Basic SolidWorks knowledge
+- Interest in CNC machining and manufacturing
+- Willingness to learn PLC systems
+- Basic GD&T understanding
+- Lean manufacturing interest
+- Excel for data analysis
+- Strong hands-on aptitude
+- FE exam preparation is a plus","Factory Automation"
