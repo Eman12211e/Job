@@ -14,6 +14,7 @@ import pandas as pd
 from typing import Dict, List
 
 from engine.keyword_extractor import extract_skills_from_text
+from engine.pdf_extractor import pdf_to_clean_text
 from config.settings import DATA_DIR
 
 
@@ -146,12 +147,15 @@ def render_audit_tab(
     )
 
     uploaded = st.file_uploader(
-        "Or upload a .txt file",
-        type=["txt"],
+        "Or upload a resume file",
+        type=["pdf", "txt"],
         key="audit_file_upload",
     )
     if uploaded is not None:
-        resume_text = uploaded.read().decode("utf-8")
+        if uploaded.name.lower().endswith(".pdf"):
+            resume_text = pdf_to_clean_text(uploaded.read())
+        else:
+            resume_text = uploaded.read().decode("utf-8")
 
     # Number of skills to check
     check_n = st.slider(

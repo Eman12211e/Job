@@ -4,6 +4,7 @@ import streamlit as st
 import pandas as pd
 from typing import Dict, List
 from engine.gap_analysis import analyze_gap, compute_gap_score
+from engine.pdf_extractor import pdf_to_clean_text
 from ui.charts import gap_donut
 
 
@@ -15,7 +16,7 @@ def render_gap_tab(
     """Resume upload/paste → gap analysis → visual comparison."""
     st.header("Skills Gap Analysis")
     st.write(
-        "Paste your resume text or upload a `.txt` file to see which "
+        "Paste your resume text or upload a PDF/text file to see which "
         "top-ranked skills you already have and which ones to develop."
     )
 
@@ -25,9 +26,12 @@ def render_gap_tab(
         placeholder="Copy and paste the text content of your resume...",
     )
 
-    uploaded = st.file_uploader("Or upload a .txt file", type=["txt"])
+    uploaded = st.file_uploader("Or upload a resume file", type=["pdf", "txt"])
     if uploaded is not None:
-        resume_text = uploaded.read().decode("utf-8")
+        if uploaded.name.lower().endswith(".pdf"):
+            resume_text = pdf_to_clean_text(uploaded.read())
+        else:
+            resume_text = uploaded.read().decode("utf-8")
 
     if not resume_text:
         st.info("Enter your resume text above to start the analysis.")
