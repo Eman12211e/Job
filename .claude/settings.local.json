@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(streamlit --version)",
+      "Bash(pip install -r requirements.txt)",
+      "Bash(python tests/test_keyword_extractor.py)",
+      "Bash(python tests/test_ranking.py)",
+      "Bash(python tests/test_gap_analysis.py)",
+      "Bash(python tests/test_bullet_generator.py)",
+      "Bash(pip install streamlit pandas plotly fpdf2 python-dotenv)"
+    ]
+  }
+}

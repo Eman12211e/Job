@@ -1,0 +1,361 @@
+{
+  "projects": [
+    {
+      "project_id": "EV-PROJ-001",
+      "title": "Regenerative Braking Energy Recovery Simulation",
+      "industry": "EV/Automotive",
+      "difficulty": "intermediate",
+      "description": "Build a Python simulation that models regenerative braking energy recovery as a function of vehicle mass, speed, and deceleration rate. Pair it with a Fusion 360 CAD model of a brake caliper assembly with full GD&T annotations.",
+      "skills_demonstrated": ["Python", "Regenerative Braking", "Fusion 360", "GD&T", "MATLAB"],
+      "deliverables": [
+        "Python simulation script with parametric inputs",
+        "Fusion 360 brake caliper assembly (STEP + drawing)",
+        "Engineering report comparing energy recovery across 3 vehicle weight classes",
+        "GitHub repository with README and results plots"
+      ],
+      "resume_bullets": [
+        "Developed Python-based regenerative braking simulation modeling energy recovery vs. vehicle mass, achieving 28% improvement over baseline; created brake caliper CAD in Fusion 360 with full GD&T per ASME Y14.5.",
+        "Built parametric energy recovery model in Python and MATLAB validating regenerative braking efficiency across 3 EV weight classes; documented results in engineering report with Plotly visualizations.",
+        "Designed brake caliper assembly in Fusion 360 (Autodesk Certified workflow) with tolerance stack-up analysis, supporting regenerative braking simulation that quantified 15-28% energy recovery range."
+      ],
+      "estimated_hours": 35,
+      "github_template": "https://github.com/template/regen-braking-sim"
+    },
+    {
+      "project_id": "EV-PROJ-002",
+      "title": "EV Battery Thermal Management Analysis",
+      "industry": "EV/Automotive",
+      "difficulty": "advanced",
+      "description": "Model a liquid-cooled battery pack cold plate in SolidWorks, then run thermal FEA in ANSYS to optimize coolant channel geometry. Analyze temperature distribution across a 12-cell module under fast-charge conditions.",
+      "skills_demonstrated": ["SolidWorks", "ANSYS", "Finite Element Analysis", "Thermal Analysis", "Battery Management Systems"],
+      "deliverables": [
+        "SolidWorks cold plate assembly with cooling channels",
+        "ANSYS thermal simulation report with temperature contour plots",
+        "Design optimization summary (3 channel geometries compared)",
+        "GitHub repo with simulation setup files and results"
+      ],
+      "resume_bullets": [
+        "Designed liquid cooling cold plate for 12-cell EV battery module in SolidWorks; performed thermal FEA in ANSYS achieving 18% reduction in peak cell temperature under fast-charge conditions.",
+        "Optimized battery thermal management system using ANSYS Fluent CFD, comparing 3 coolant channel geometries and selecting design with best temperature uniformity (delta-T < 3C across module).",
+        "Modeled Battery Management System thermal interface in SolidWorks with full GD&T callouts; validated thermal performance via FEA against SAE J2464 battery safety requirements."
+      ],
+      "estimated_hours": 50,
+      "github_template": "https://github.com/template/ev-battery-thermal"
+    },
+    {
+      "project_id": "EV-PROJ-003",
+      "title": "CAN Bus Vehicle Diagnostics Dashboard",
+      "industry": "EV/Automotive",
+      "difficulty": "intermediate",
+      "description": "Parse simulated CAN bus data from an EV powertrain using Python, build a real-time dashboard displaying motor RPM, battery SOC, and inverter temperature. Use pandas for data wrangling and Plotly for visualization.",
+      "skills_demonstrated": ["Python", "CAN Bus", "Battery Management Systems", "Electric Powertrain"],
+      "deliverables": [
+        "Python CAN bus data parser with simulated OBD-II frames",
+        "Streamlit dashboard showing live telemetry plots",
+        "Anomaly detection for battery SOC drops and thermal events",
+        "GitHub repo with sample datasets and documentation"
+      ],
+      "resume_bullets": [
+        "Built Python-based CAN bus diagnostics dashboard parsing simulated EV powertrain data, displaying motor RPM, battery SOC, and inverter temperature in real-time Plotly visualizations.",
+        "Developed anomaly detection pipeline for Battery Management System telemetry using pandas, flagging abnormal SOC drops and thermal events with 95% detection accuracy.",
+        "Created end-to-end CAN protocol data pipeline in Python for EV powertrain monitoring, processing 10,000+ data frames and generating automated health reports."
+      ],
+      "estimated_hours": 30,
+      "github_template": "https://github.com/template/can-bus-dashboard"
+    },
+    {
+      "project_id": "EV-PROJ-004",
+      "title": "EV Suspension Knuckle Topology Optimization",
+      "industry": "EV/Automotive",
+      "difficulty": "advanced",
+      "description": "Design a front suspension steering knuckle in SolidWorks, apply static and fatigue loads in ANSYS, then use topology optimization to minimize mass while meeting strength targets. Compare original vs. optimized designs.",
+      "skills_demonstrated": ["SolidWorks", "ANSYS", "Finite Element Analysis", "Lightweight Optimization", "Fatigue Analysis"],
+      "deliverables": [
+        "SolidWorks baseline and optimized knuckle models",
+        "ANSYS FEA report with stress contours and factor of safety maps",
+        "Mass reduction summary with before/after comparison",
+        "GitHub repo with FEA setup and optimization parameters"
+      ],
+      "resume_bullets": [
+        "Performed topology optimization on EV suspension knuckle using ANSYS, achieving 22% weight reduction while maintaining factor of safety above 2.0 under combined braking and cornering loads.",
+        "Designed and analyzed steering knuckle in SolidWorks with full GD&T; validated structural integrity through FEA fatigue analysis meeting 500,000 cycle durability requirement.",
+        "Applied lightweight optimization techniques to cast aluminum knuckle, reducing mass from 4.2kg to 3.3kg; documented DFM considerations for sand casting production."
+      ],
+      "estimated_hours": 45,
+      "github_template": "https://github.com/template/knuckle-topology-opt"
+    },
+    {
+      "project_id": "EV-PROJ-005",
+      "title": "DFMEA for EV High-Voltage Battery Pack",
+      "industry": "EV/Automotive",
+      "difficulty": "beginner",
+      "description": "Conduct a Design Failure Mode and Effects Analysis for an EV battery pack enclosure, identifying potential failure modes, severity ratings, and recommended actions. Create the DFMEA table in Excel and summarize findings.",
+      "skills_demonstrated": ["DFMEA", "Battery Management Systems", "IATF 16949", "APQP"],
+      "deliverables": [
+        "Complete DFMEA spreadsheet with 30+ failure modes analyzed",
+        "Risk Priority Number rankings and mitigation actions",
+        "Summary report with top 10 critical failure modes",
+        "Presentation slides for design review"
+      ],
+      "resume_bullets": [
+        "Conducted DFMEA on EV battery pack enclosure analyzing 30+ failure modes per IATF 16949; identified 5 critical risks and recommended design changes that reduced RPN by 40%.",
+        "Led Design FMEA review for high-voltage Battery Management System enclosure, applying APQP methodology to prioritize corrective actions across thermal, structural, and electrical failure modes.",
+        "Created comprehensive DFMEA documentation for EV battery pack per automotive quality standards, enabling structured risk assessment that informed prototype validation test plan."
+      ],
+      "estimated_hours": 20,
+      "github_template": "https://github.com/template/ev-battery-dfmea"
+    },
+    {
+      "project_id": "FA-PROJ-001",
+      "title": "Predictive Maintenance Dashboard for CNC Machines",
+      "industry": "Factory Automation",
+      "difficulty": "intermediate",
+      "description": "Build a Python dashboard that ingests simulated vibration sensor data from CNC spindles, applies basic machine learning (scikit-learn) to predict tool wear, and flags maintenance windows before failure occurs.",
+      "skills_demonstrated": ["Python", "Machine Learning", "Predictive Maintenance", "CNC Machining", "Statistical Process Control"],
+      "deliverables": [
+        "Python data pipeline for vibration sensor ingestion",
+        "Scikit-learn classification model (Random Forest) for tool wear prediction",
+        "Streamlit dashboard with live alerts and trend charts",
+        "GitHub repo with simulated datasets and model training notebook"
+      ],
+      "resume_bullets": [
+        "Developed predictive maintenance system using Python and scikit-learn, analyzing CNC spindle vibration data to predict tool wear with 92% accuracy, reducing unplanned downtime by 35%.",
+        "Built real-time condition monitoring dashboard in Streamlit processing vibration sensor data from 5 CNC machines, implementing statistical process control charts for trend analysis.",
+        "Created machine learning pipeline for CNC predictive maintenance using Random Forest classifier, processing 10,000+ sensor readings and generating automated maintenance alerts."
+      ],
+      "estimated_hours": 40,
+      "github_template": "https://github.com/template/cnc-predictive-maintenance"
+    },
+    {
+      "project_id": "FA-PROJ-002",
+      "title": "Automated Assembly Line PLC Control Simulation",
+      "industry": "Factory Automation",
+      "difficulty": "intermediate",
+      "description": "Design a PLC control sequence for a 4-station automated assembly line using ladder logic. Simulate conveyor indexing, pneumatic actuators, and sensor interlocks. Document the I/O table and sequence of operations.",
+      "skills_demonstrated": ["PLC Programming", "Industrial Robotics", "Hydraulics/Pneumatics", "Lean Manufacturing"],
+      "deliverables": [
+        "PLC ladder logic program with full I/O mapping",
+        "Sequence of Operations document",
+        "Timing diagram for 4-station cycle",
+        "SolidWorks layout drawing of the assembly cell"
+      ],
+      "resume_bullets": [
+        "Designed PLC ladder logic for 4-station automated assembly cell, programming conveyor indexing, pneumatic actuator sequences, and safety interlocks achieving 12-second cycle time.",
+        "Programmed Allen-Bradley PLC for automated assembly line with sensor-driven interlocks and fault recovery; documented complete I/O table and sequence of operations per lean manufacturing standards.",
+        "Simulated PLC-controlled assembly process integrating FANUC robot pick-and-place with pneumatic fixturing, reducing manual intervention by 85% and improving throughput by 22%."
+      ],
+      "estimated_hours": 35,
+      "github_template": "https://github.com/template/plc-assembly-sim"
+    },
+    {
+      "project_id": "FA-PROJ-003",
+      "title": "Lean Manufacturing Value Stream Mapping Tool",
+      "industry": "Factory Automation",
+      "difficulty": "beginner",
+      "description": "Create a Python tool that lets users input process steps, cycle times, and inventory levels to auto-generate a current-state value stream map. Calculate takt time, lead time, and identify waste using Lean principles.",
+      "skills_demonstrated": ["Python", "Lean Manufacturing", "Lean Six Sigma Green Belt", "Statistical Process Control"],
+      "deliverables": [
+        "Python CLI/Streamlit tool for VSM data entry",
+        "Auto-generated value stream map visualization",
+        "Waste identification report with Lean improvement suggestions",
+        "GitHub repo with sample factory data"
+      ],
+      "resume_bullets": [
+        "Built Python-based value stream mapping tool automating current-state analysis for manufacturing processes; identified 3 major waste sources and proposed lean improvements reducing lead time by 30%.",
+        "Developed Lean Manufacturing analysis tool using Python and pandas, calculating takt time, process efficiency, and WIP levels across 8 production stations with automated Plotly visualizations.",
+        "Created digital value stream mapping application applying Six Sigma and lean principles, enabling rapid identification of bottlenecks and driving kaizen events that improved OEE by 15%."
+      ],
+      "estimated_hours": 25,
+      "github_template": "https://github.com/template/vsm-tool"
+    },
+    {
+      "project_id": "FA-PROJ-004",
+      "title": "CNC Fixture Design with GD&T Analysis",
+      "industry": "Factory Automation",
+      "difficulty": "intermediate",
+      "description": "Design a custom CNC workholding fixture in SolidWorks for a prismatic part with tight tolerances. Perform tolerance stack-up analysis and create a fully dimensioned drawing with GD&T callouts per ASME Y14.5.",
+      "skills_demonstrated": ["SolidWorks", "CNC Machining", "GD&T", "Tolerance Stack-Up", "DFM/DFA"],
+      "deliverables": [
+        "SolidWorks fixture assembly with 3-2-1 locating scheme",
+        "Tolerance stack-up spreadsheet with worst-case and RSS analysis",
+        "Engineering drawing with full GD&T per ASME Y14.5",
+        "DFM review document for fixture manufacturing"
+      ],
+      "resume_bullets": [
+        "Designed CNC workholding fixture in SolidWorks using 3-2-1 locating principle; performed tolerance stack-up analysis ensuring critical features held within 0.025mm across 5 datum references per GD&T.",
+        "Created fully dimensioned engineering drawings with GD&T callouts per ASME Y14.5 for CNC fixture; conducted DFM review reducing manufacturing cost by 20% through material and process optimization.",
+        "Engineered custom fixture for 5-axis CNC machining operation in SolidWorks, validating design through worst-case tolerance stack-up analysis and achieving first-pass yield improvement of 15%."
+      ],
+      "estimated_hours": 30,
+      "github_template": "https://github.com/template/cnc-fixture-gdt"
+    },
+    {
+      "project_id": "FA-PROJ-005",
+      "title": "Factory OEE Tracking Database",
+      "industry": "Factory Automation",
+      "difficulty": "beginner",
+      "description": "Build a SQL database and Python interface for tracking Overall Equipment Effectiveness (OEE) across multiple production lines. Create queries for availability, performance, and quality metrics with automated weekly reports.",
+      "skills_demonstrated": ["SQL", "Python", "ERP Systems", "Lean Manufacturing"],
+      "deliverables": [
+        "SQLite database schema for production tracking",
+        "Python scripts for data entry and OEE calculation",
+        "Automated weekly OEE report generator",
+        "Streamlit dashboard for real-time OEE monitoring"
+      ],
+      "resume_bullets": [
+        "Designed and built SQL database for OEE tracking across 4 production lines, writing automated queries that calculated availability, performance, and quality metrics with weekly report generation.",
+        "Developed Python-based OEE monitoring system integrated with factory SQL database, enabling real-time visibility into equipment effectiveness and driving 12% improvement in line availability.",
+        "Created production data pipeline using Python and SQL, automating OEE calculations and trend analysis for lean manufacturing continuous improvement initiatives across the facility."
+      ],
+      "estimated_hours": 25,
+      "github_template": "https://github.com/template/factory-oee-tracker"
+    },
+    {
+      "project_id": "FA-PROJ-006",
+      "title": "Robotic Cell Layout Optimization",
+      "industry": "Factory Automation",
+      "difficulty": "advanced",
+      "description": "Design and optimize a robotic welding cell layout in SolidWorks with FANUC robot reach analysis. Simulate cycle time, identify interference zones, and ensure OSHA safety compliance for the guarding enclosure.",
+      "skills_demonstrated": ["SolidWorks", "Industrial Robotics", "DFM/DFA", "Lean Manufacturing", "AutoCAD"],
+      "deliverables": [
+        "SolidWorks 3D layout with robot reach envelope visualization",
+        "Cycle time analysis spreadsheet",
+        "Safety risk assessment and guarding design",
+        "AutoCAD 2D floor plan for facilities team"
+      ],
+      "resume_bullets": [
+        "Designed robotic welding cell layout in SolidWorks integrating FANUC robot reach analysis, optimizing station placement to reduce cycle time by 18% while maintaining OSHA safety clearances.",
+        "Engineered safety guarding enclosure for industrial robotics cell in SolidWorks and AutoCAD, conducting interference analysis and ensuring compliance with ANSI/RIA safety standards.",
+        "Optimized robotic cell layout for lean manufacturing flow, eliminating operator walk time by 40% through strategic fixture placement and implementing DFM principles for weld joint accessibility."
+      ],
+      "estimated_hours": 40,
+      "github_template": "https://github.com/template/robot-cell-layout"
+    },
+    {
+      "project_id": "AR-PROJ-001",
+      "title": "Lightweight Bracket Topology Optimizer",
+      "industry": "Aerospace/Robotics",
+      "difficulty": "intermediate",
+      "description": "Design an aerospace mounting bracket in SolidWorks, then write a Python script that iterates material-to-strength ratios using basic stress equations. Compare aluminum, titanium, and composite options with FEA validation in ANSYS.",
+      "skills_demonstrated": ["SolidWorks", "ANSYS", "Finite Element Analysis", "Lightweight Optimization", "Python"],
+      "deliverables": [
+        "SolidWorks bracket models in 3 materials",
+        "Python optimization script with stress/weight Pareto plots",
+        "ANSYS FEA validation report for selected design",
+        "GitHub repo with scripts and engineering documentation"
+      ],
+      "resume_bullets": [
+        "Developed Python-based topology optimization tool for aerospace bracket, iterating material-to-strength ratios across Al 7075, Ti-6Al-4V, and CFRP; achieved 35% weight reduction validated by ANSYS FEA.",
+        "Designed lightweight mounting bracket in SolidWorks for satellite payload interface; performed structural FEA in ANSYS Mechanical confirming factor of safety > 2.5 under launch vibration loads.",
+        "Created parametric optimization script in Python comparing 3 aerospace materials, generating stress/weight Pareto frontiers and selecting design with best strength-to-weight ratio per AS9100 standards."
+      ],
+      "estimated_hours": 40,
+      "github_template": "https://github.com/template/aero-bracket-optimizer"
+    },
+    {
+      "project_id": "AR-PROJ-002",
+      "title": "UAV Airframe Structural Analysis",
+      "industry": "Aerospace/Robotics",
+      "difficulty": "advanced",
+      "description": "Model a fixed-wing UAV airframe in CATIA, define flight load cases (2.5g maneuver, gust), and run structural FEA in ANSYS. Analyze wing spar fatigue life and generate a stress report per aerospace standards.",
+      "skills_demonstrated": ["CATIA", "ANSYS", "Finite Element Analysis", "Fatigue Analysis", "Composites", "AS9100"],
+      "deliverables": [
+        "CATIA wing and fuselage assembly model",
+        "ANSYS structural FEA with 3 load cases",
+        "Fatigue life prediction report for wing spar",
+        "Compliance matrix against AS9100 documentation requirements"
+      ],
+      "resume_bullets": [
+        "Modeled fixed-wing UAV airframe in CATIA V5 and performed structural FEA in ANSYS for 2.5g maneuver and gust load cases; achieved all stress margins positive with 18% mass margin.",
+        "Conducted fatigue analysis on carbon fiber composite wing spar using ANSYS, predicting 50,000+ flight-hour life under spectrum loading per aerospace durability requirements.",
+        "Developed UAV structural analysis package per AS9100 documentation standards, including FEA reports, material allowables, and compliance matrices for airworthiness certification."
+      ],
+      "estimated_hours": 55,
+      "github_template": "https://github.com/template/uav-structural-fea"
+    },
+    {
+      "project_id": "AR-PROJ-003",
+      "title": "Robotic Arm Inverse Kinematics in ROS",
+      "industry": "Aerospace/Robotics",
+      "difficulty": "advanced",
+      "description": "Implement inverse kinematics for a 6-DOF robotic arm using ROS2 and Python. Simulate in Gazebo, plan collision-free paths, and interface with a SolidWorks-designed end-effector for pick-and-place tasks.",
+      "skills_demonstrated": ["ROS", "Python", "C++", "SolidWorks", "Industrial Robotics"],
+      "deliverables": [
+        "ROS2 package with IK solver and motion planning",
+        "Gazebo simulation of pick-and-place sequence",
+        "SolidWorks end-effector CAD with URDF export",
+        "GitHub repo with launch files and documentation"
+      ],
+      "resume_bullets": [
+        "Implemented inverse kinematics solver for 6-DOF robotic arm in ROS2 using Python and C++, achieving sub-millimeter positioning accuracy in Gazebo simulation environment.",
+        "Designed robotic end-effector in SolidWorks and exported URDF for ROS2 integration; simulated collision-free path planning for pick-and-place operations with 98% task success rate.",
+        "Developed ROS2-based robotic arm control package integrating inverse kinematics, motion planning, and gripper actuation; reduced cycle time by 25% through optimized trajectory planning."
+      ],
+      "estimated_hours": 50,
+      "github_template": "https://github.com/template/ros2-robot-ik"
+    },
+    {
+      "project_id": "AR-PROJ-004",
+      "title": "Spacecraft Thermal Cycling Simulation",
+      "industry": "Aerospace/Robotics",
+      "difficulty": "intermediate",
+      "description": "Build a Python thermal model of a small satellite in low Earth orbit, computing temperature swings between sunlight and eclipse phases. Validate against simplified ANSYS thermal FEA and recommend thermal control strategies.",
+      "skills_demonstrated": ["Python", "ANSYS", "Thermal Analysis", "Systems Engineering", "MATLAB"],
+      "deliverables": [
+        "Python orbital thermal model with parametric inputs",
+        "ANSYS thermal FEA validation of critical components",
+        "Thermal control design trade study report",
+        "GitHub repo with simulation code and results"
+      ],
+      "resume_bullets": [
+        "Built Python orbital thermal model for CubeSat computing temperature extremes across sunlight/eclipse phases, correlating within 5% of ANSYS thermal FEA validation results.",
+        "Performed spacecraft thermal analysis using ANSYS and MATLAB, evaluating passive thermal control strategies and recommending MLI blanket configuration that maintained all components within allowable ranges.",
+        "Developed systems engineering thermal analysis package for small satellite, integrating Python simulation with ANSYS FEA to predict orbital temperature cycling from -40C to +65C."
+      ],
+      "estimated_hours": 35,
+      "github_template": "https://github.com/template/spacecraft-thermal-sim"
+    },
+    {
+      "project_id": "AR-PROJ-005",
+      "title": "Composite Layup Optimization for UAV Wing Skin",
+      "industry": "Aerospace/Robotics",
+      "difficulty": "advanced",
+      "description": "Design a carbon fiber composite layup schedule for a UAV wing skin using classical lamination theory in Python. Optimize ply orientations for minimum weight while meeting strength and stiffness requirements.",
+      "skills_demonstrated": ["Python", "Composites", "Finite Element Analysis", "Lightweight Optimization", "MATLAB"],
+      "deliverables": [
+        "Python CLT solver for laminate analysis",
+        "Optimized layup schedule with ply-by-ply breakdown",
+        "Failure analysis using Tsai-Wu and max strain criteria",
+        "Comparison report: quasi-isotropic vs. optimized laminate"
+      ],
+      "resume_bullets": [
+        "Developed Python-based classical lamination theory solver for CFRP composite optimization, determining ply schedule that reduced wing skin mass by 20% while meeting all strength margins.",
+        "Optimized carbon fiber composite layup for UAV wing using Python and MATLAB, applying Tsai-Wu failure criteria and achieving 30% stiffness improvement over quasi-isotropic baseline.",
+        "Created composite materials analysis toolkit in Python for aerospace structures, automating laminate optimization across 50+ ply configurations and generating manufacturing-ready layup schedules."
+      ],
+      "estimated_hours": 45,
+      "github_template": "https://github.com/template/composite-layup-opt"
+    },
+    {
+      "project_id": "AR-PROJ-006",
+      "title": "Drone Flight Controller Sensor Fusion",
+      "industry": "Aerospace/Robotics",
+      "difficulty": "intermediate",
+      "description": "Implement a Kalman filter in Python/C++ for fusing IMU and GPS data on a quadcopter. Test with simulated noisy sensor data and visualize estimated vs. true position/attitude.",
+      "skills_demonstrated": ["Python", "C++", "MATLAB", "Systems Engineering"],
+      "deliverables": [
+        "Extended Kalman Filter implementation in Python",
+        "C++ port for embedded deployment",
+        "Simulation with noisy sensor data and ground truth comparison",
+        "GitHub repo with visualization notebooks"
+      ],
+      "resume_bullets": [
+        "Implemented Extended Kalman Filter in Python and C++ for UAV sensor fusion, combining IMU and GPS data to achieve position estimation accuracy within 0.5m RMS error.",
+        "Developed drone flight controller sensor fusion algorithm using Python, processing noisy accelerometer and gyroscope data to estimate attitude within 1 degree accuracy.",
+        "Created simulation framework for testing sensor fusion algorithms on quadcopter platform, validating Kalman filter performance against ground truth data across 100+ test scenarios in MATLAB."
+      ],
+      "estimated_hours": 35,
+      "github_template": "https://github.com/template/drone-sensor-fusion"
+    }
+  ]
+}
